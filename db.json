@@ -1031,7 +1031,7 @@
 "DoctorSchema":[
   {
     "doctorName": "Dr. Sarah Smith",
-    "imageurl": "https://example.com/images/dr_sarah.jpg",
+    "https://media.istockphoto.com/id/1189304032/photo/doctor-holding-digital-tablet-at-meeting-room.jpg?s=612x612&w=is&k=20&c=gsdmPZ5d0Qnl73G1fMuNPEWS-omxHiCGXO78poIxeKM=",
     "age": 45,
     "fees": 500,
     "category": "Physical Treatment",
@@ -1040,7 +1040,7 @@
   },
   {
     "doctorName": "Dr. John Doe",
-    "imageurl": "https://example.com/images/dr_john.jpg",
+    "imageurl": "https://media.istockphoto.com/id/1371009338/photo/portrait-of-confident-a-young-dentist-working-in-his-consulting-room.jpg?s=612x612&w=is&k=20&c=0C4AINkHv00TToV_2-HeQQxiXsZTJtRZHKdPuukB0PA=",
     "age": 50,
     "fees": 600,
     "category": "Mental Health",
@@ -1049,7 +1049,7 @@
   },
   {
     "doctorName": "Dr. Emma Watson",
-    "imageurl": "https://example.com/images/dr_emma.jpg",
+    "imageurl": "https://media.istockphoto.com/id/1806608544/photo/portrait-of-a-female-doctor-at-the-workplace.jpg?s=612x612&w=is&k=20&c=w7Yr2r511rDC9ApS97mj-vWSDf4SXQnP8uVPoXGLOSA=",
     "age": 38,
     "fees": 450,
     "category": "Suggestions",
@@ -1058,7 +1058,7 @@
   },
   {
     "doctorName": "Dr. Michael Clark",
-    "imageurl": "https://example.com/images/dr_michael.jpg",
+    "imageurl": "https://media.istockphoto.com/id/1434687410/photo/portrait-of-happy-and-successful-african-american-doctor-man-working-inside-office-clinic.jpg?s=612x612&w=is&k=20&c=kH2TZSiZtDD-Qez021OgmTmQthC4OHs9cr5AcK6qimM=",
     "age": 48,
     "fees": 550,
     "category": "Precautions",
@@ -1067,7 +1067,7 @@
   },
   {
     "doctorName": "Dr. Jessica Lee",
-    "imageurl": "https://example.com/images/dr_jessica.jpg",
+    "imageurl": "https://media.istockphoto.com/id/1468678629/photo/portrait-healthcare-and-tablet-with-a-doctor-woman-at-work-in-a-hospital-for-research-or.jpg?s=612x612&w=is&k=20&c=-n6SU2sLbbm2r_JSO8fFPFWFhTD9yuQLwuIAl0obt4Y=",
     "age": 40,
     "fees": 650,
     "category": "Pregnancy",
@@ -1075,7 +1075,6 @@
     "createdAt": "2024-12-17T13:00:00Z"
   }
 ]
-
 
 
 
