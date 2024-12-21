@@ -4,7 +4,7 @@
     border: 1px solid #ddd;
     padding: 15px;
     border-radius: 10px;
-    background-color: #f9f9f9;
+   
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
     max-width: 800px;
@@ -22,7 +22,7 @@
   
   .healthcare-info {
     flex-grow: 1;
-    color: #343a40;
+   
   }
   
   .healthcare-info p {
@@ -31,7 +31,7 @@
   }
   
   .healthcare-info strong {
-    color: #495057;
+    
   }
   
   .empty {

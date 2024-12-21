@@ -2,14 +2,14 @@
     max-width: 600px;
     margin: 0 auto;
     padding: 30px;
-    background-color: #f9f9f9; /* Light background */
+    /* Light background */
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Soft shadow */
   }
   
   h2 {
     font-size: 2.2rem;
-    color: #333;
+  
     margin-bottom: 20px;
     font-weight: bold;
   }
@@ -21,7 +21,7 @@
   
   .form-label {
     font-weight: bold;
-    color: #555;
+   
   }
   
   .form-control {
@@ -29,7 +29,7 @@
     border-radius: 8px;
     padding: 10px;
     font-size: 1rem;
-    color: #333;
+ 
     transition: all 0.3s ease;
   }
   

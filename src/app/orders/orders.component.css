@@ -2,7 +2,7 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f4f4f4;
+   
     border-radius: 8px;
   }
   
@@ -13,7 +13,7 @@
   }
   
   .order-details {
-    background-color: #fff;
+   
     padding: 20px;
     border: 1px solid #ccc;
     margin-bottom: 30px;
@@ -33,7 +33,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 15px;
-    background-color: #f9f9f9;
+   
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
@@ -50,7 +50,7 @@
   }
   
   .bill-details {
-    background-color: #fafafa;
+   
     padding: 15px;
     border-radius: 5px;
     border: 1px solid #ddd;
@@ -102,7 +102,7 @@
     max-width: 800px; /* Limit the width of the product container */
     margin: 0 auto 15px; /* Center the product container and add space below */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for a classic feel */
-    background-color: #f9f9f9; /* Soft background color for a classic look */
+    /* Soft background color for a classic look */
   }
   
  
@@ -131,7 +131,7 @@
   
   .cinfodiv span {
     font-size: 1.2rem;
-    color: #343a40; /* Classic dark grey color for text */
+    /* Classic dark grey color for text */
     font-weight: bold;
   }
   

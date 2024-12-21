@@ -2,21 +2,21 @@
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f9f9f9; /* Light background for form */
+    /* Light background for form */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for classic look */
   }
   
   h2 {
     font-size: 2rem;
-    color: #333; /* Dark text for title */
+    /* Dark text for title */
     text-align: center;
     margin-bottom: 20px;
   }
   
   .form-label {
     font-weight: bold;
-    color: #333;
+   
   }
   
   .form-control {

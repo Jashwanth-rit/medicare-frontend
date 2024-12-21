@@ -4,7 +4,7 @@
     border: 1px solid #ddd;
     padding: 15px;
     border-radius: 10px;
-    background-color: #f9f9f9; /* Light background */
+    /* Light background */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
     margin-bottom: 20px;
     max-width: 800px;
@@ -22,7 +22,7 @@
   
   .extinguisher-info {
     flex-grow: 1;
-    color: #343a40;
+    
   }
   
   .extinguisher-info p {
@@ -30,9 +30,7 @@
     font-size: 1rem;
   }
   
-  .extinguisher-info strong {
-    color: #495057; /* Slightly darker text for labels */
-  }
+ 
   
   .extinguisher-info p span {
     font-weight: bold;

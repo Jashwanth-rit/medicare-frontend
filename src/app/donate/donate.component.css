@@ -10,7 +10,7 @@
     max-width: 800px;
     margin: 0 auto 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #f9f9f9;
+   
   }
   
   .cimgdiv img {
@@ -35,7 +35,7 @@
   
   .cinfodiv span {
     font-size: 1.2rem;
-    color: #343a40;
+  
     font-weight: bold;
   }
   
