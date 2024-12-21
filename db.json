@@ -1029,54 +1029,175 @@
 ]
 ,
 "DoctorSchema":[
-  {
-    "doctorName": "Dr. Sarah Smith",
-    "imageurl": 
-  "https://media.istockphoto.com/id/1189304032/photo/doctor-holding-digital-tablet-at-meeting-room.jpg?s=612x612&w=is&k=20&c=gsdmPZ5d0Qnl73G1fMuNPEWS-omxHiCGXO78poIxeKM=",
-    "age": 45,
-    "fees": 500,
-    "category": "Physical Treatment",
-    "availability": true,
-    "createdAt": "2024-12-21T10:00:00Z"
-  },
-  {
-    "doctorName": "Dr. John Doe",
-    "imageurl": "https://media.istockphoto.com/id/1371009338/photo/portrait-of-confident-a-young-dentist-working-in-his-consulting-room.jpg?s=612x612&w=is&k=20&c=0C4AINkHv00TToV_2-HeQQxiXsZTJtRZHKdPuukB0PA=",
-    "age": 50,
-    "fees": 600,
-    "category": "Mental Health",
-    "availability": false,
-    "createdAt": "2024-12-20T14:30:00Z"
-  },
-  {
-    "doctorName": "Dr. Emma Watson",
-    "imageurl": "https://media.istockphoto.com/id/1806608544/photo/portrait-of-a-female-doctor-at-the-workplace.jpg?s=612x612&w=is&k=20&c=w7Yr2r511rDC9ApS97mj-vWSDf4SXQnP8uVPoXGLOSA=",
-    "age": 38,
-    "fees": 450,
-    "category": "Suggestions",
-    "availability": true,
-    "createdAt": "2024-12-19T09:00:00Z"
-  },
-  {
-    "doctorName": "Dr. Michael Clark",
-    "imageurl": "https://media.istockphoto.com/id/1434687410/photo/portrait-of-happy-and-successful-african-american-doctor-man-working-inside-office-clinic.jpg?s=612x612&w=is&k=20&c=kH2TZSiZtDD-Qez021OgmTmQthC4OHs9cr5AcK6qimM=",
-    "age": 48,
-    "fees": 550,
-    "category": "Precautions",
-    "availability": true,
-    "createdAt": "2024-12-18T11:15:00Z"
-  },
-  {
-    "doctorName": "Dr. Jessica Lee",
-    "imageurl": "https://media.istockphoto.com/id/1468678629/photo/portrait-healthcare-and-tablet-with-a-doctor-woman-at-work-in-a-hospital-for-research-or.jpg?s=612x612&w=is&k=20&c=-n6SU2sLbbm2r_JSO8fFPFWFhTD9yuQLwuIAl0obt4Y=",
-    "age": 40,
-    "fees": 650,
-    "category": "Pregnancy",
-    "availability": false,
-    "createdAt": "2024-12-17T13:00:00Z"
-  }
+  
+    {
+      "doctorName": "Dr. Olivia Brown",
+      "imageurl": "https://images.unsplash.com/photo-1651008376811-b90baee60c1f?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZG9jdG9yfGVufDB8fDB8fHww",
+      "age": 37,
+      "fees": 400,
+      "category": "Dermatology",
+      "availability": true,
+      "createdAt": "2024-12-16T10:30:00Z"
+    },
+    {
+      "doctorName": "Dr. Liam Davis",
+      "imageurl": "https://plus.unsplash.com/premium_photo-1658506671316-0b293df7c72b?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZG9jdG9yfGVufDB8fDB8fHww",
+      "age": 55,
+      "fees": 700,
+      "category": "Cardiology",
+      "availability": false,
+      "createdAt": "2024-12-15T12:00:00Z"
+    },
+    {
+      "doctorName": "Dr. Mia Taylor",
+      "imageurl": "https://plus.unsplash.com/premium_photo-1661580574627-9211124e5c3f?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZG9jdG9yfGVufDB8fDB8fHww",
+      "age": 42,
+      "fees": 450,
+      "category": "Nutrition",
+      "availability": true,
+      "createdAt": "2024-12-14T09:45:00Z"
+    },
+    {
+      "doctorName": "Dr. Noah Wilson",
+      "imageurl": "https://plus.unsplash.com/premium_photo-1661764878654-3d0fc2eefcca?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGRvY3RvcnxlbnwwfHwwfHx8MA%3D%3D",
+      "age": 47,
+      "fees": 500,
+      "category": "Orthopedics",
+      "availability": true,
+      "createdAt": "2024-12-13T08:15:00Z"
+    },
+    {
+      "doctorName": "Dr. Ava Johnson",
+      "imageurl": "https://plus.unsplash.com/premium_photo-1661766718556-13c2efac1388?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGRvY3RvcnxlbnwwfHwwfHx8MA%3D%3D",
+      "age": 39,
+      "fees": 600,
+      "category": "Psychology",
+      "availability": false,
+      "createdAt": "2024-12-12T14:00:00Z"
+    },
+    {
+      "doctorName": "Dr. Ethan Martinez",
+      "imageurl": "https://media.istockphoto.com/id/1390000431/photo/shot-of-a-mature-doctor-using-a-digital-tablet-in-a-modern-hospital.jpg?s=612x612&w=0&k=20&c=ofnikeDwvLhhEvLpSuQME5kWclGchqUKSHQFdQ4mcWo=",
+      "age": 52,
+      "fees": 800,
+      "category": "Neurology",
+      "availability": true,
+      "createdAt": "2024-12-11T10:20:00Z"
+    },
+    {
+      "doctorName": "Dr. Sophia Moore",
+      "imageurl": "https://media.istockphoto.com/id/2050883733/photo/happy-successful-doctor-woman-medical-worker-in-white-lab-coat-standing-with-crossed-arms-on.webp?a=1&b=1&s=612x612&w=0&k=20&c=TwI1NORxnsq5M2OzsvHoDA3YC-DTQl7z3kjgSvT9RJk=",
+      "age": 35,
+      "fees": 350,
+      "category": "Pediatrics",
+      "availability": true,
+      "createdAt": "2024-12-10T13:30:00Z"
+    },
+    {
+      "doctorName": "Dr. William Garcia",
+      "imageurl": "https://media.istockphoto.com/id/1861987838/photo/smiling-female-doctor-looking-at-camera-in-the-medical-consultation.webp?a=1&b=1&s=612x612&w=0&k=20&c=um_usOsshRUn1qaLFF-5wyD9u_A4Wj2BhOFW2xsrkJ8=",
+      "age": 49,
+      "fees": 550,
+      "category": "Ophthalmology",
+      "availability": false,
+      "createdAt": "2024-12-09T11:00:00Z"
+    },
+    {
+      "doctorName": "Dr. Emily Thomas",
+      "imageurl": "https://media.istockphoto.com/id/1372002650/photo/cropped-portrait-of-an-attractive-young-female-doctor-standing-with-her-arms-folded-in-the.jpg?s=612x612&w=0&k=20&c=o1QtStNsowOU0HSof6xQ_jZMglU8ZK565gHd655U6S4=",
+      "age": 45,
+      "fees": 480,
+      "category": "ENT Specialist",
+      "availability": true,
+      "createdAt": "2024-12-08T15:45:00Z"
+    },
+    {
+      "doctorName": "Dr. James Anderson",
+      "imageurl": "https://media.istockphoto.com/id/1470505351/photo/portrait-of-a-smiling-doctor-holding-glasses-and-a-mobile-phone-at-the-office.jpg?s=612x612&w=0&k=20&c=OQX6SG1K5Mn15e3VEli23NhJSbu5k3j-6Ms5ocqBsHY=",
+      "age": 53,
+      "fees": 750,
+      "category": "General Surgery",
+      "availability": true,
+      "createdAt": "2024-12-07T09:00:00Z"
+    }
+  
 ]
-
+,
+"patientSchema":[
+  
+    {
+      "name": "John Doe",
+      "disease": "Lung Cancer",
+      "moneyRequired": 500000,
+      "url": "https://images.unsplash.com/photo-1550792436-181701c71f63?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGF0aWVudHxlbnwwfHwwfHx8MA%3D%3D",
+      "deadline": "2025-01-15T00:00:00Z",
+      "place": "New York, USA",
+      "hospitals": ["New York General Hospital", "City Cancer Center"]
+    },
+    {
+      "name": "Mary Jane",
+      "disease": "Kidney Failure",
+      "moneyRequired": 350000,
+      "url": "https://plus.unsplash.com/premium_photo-1681995498495-5258d436e705?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cGF0aWVudHxlbnwwfHwwfHx8MA%3D%3D",
+      "deadline": "2025-02-10T00:00:00Z",
+      "place": "Los Angeles, USA",
+      "hospitals": ["Los Angeles Medical Center", "St. Mary's Hospital"]
+    },
+    {
+      "name": "David Smith",
+      "disease": "Heart Disease",
+      "moneyRequired": 600000,
+      "url": "https://images.unsplash.com/photo-1606166187734-a4cb74079037?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBhdGllbnR8ZW58MHx8MHx8fDA%3D",
+      "deadline": "2025-01-20T00:00:00Z",
+      "place": "Chicago, USA",
+      "hospitals": ["Chicago Heart Institute", "Northwestern Memorial Hospital"]
+    },
+    {
+      "name": "Emma Watson",
+      "disease": "Brain Tumor",
+      "moneyRequired": 800000,
+      "url": "https://images.unsplash.com/photo-1550792404-f62d4ce3bb3e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHBhdGllbnR8ZW58MHx8MHx8fDA%3D",
+      "deadline": "2025-03-05T00:00:00Z",
+      "place": "London, UK",
+      "hospitals": ["Royal London Hospital", "St. George's Hospital"]
+    },
+    {
+      "name": "Liam Brown",
+      "disease": "Bone Marrow Transplant",
+      "moneyRequired": 750000,
+      "url": "https://c7.alamy.com/comp/C6GGKB/doctors-to-proceed-with-bone-marrow-transplant-this-brave-youngster-C6GGKB.jpg",
+      "deadline": "2025-04-01T00:00:00Z",
+      "place": "Sydney, Australia",
+      "hospitals": ["Sydney Health Center", "Prince of Wales Hospital"]
+    },
+    {
+      "name": "Sophia Green",
+      "disease": "Leukemia",
+      "moneyRequired": 900000,
+      "url": "https://c7.alamy.com/comp/B7DH03/people-give-blood-during-a-red-cross-blood-drive-in-orange-connecticut-B7DH03.jpg",
+      "deadline": "2025-02-25T00:00:00Z",
+      "place": "Toronto, Canada",
+      "hospitals": ["Toronto General Hospital", "Sunnybrook Health Sciences Centre"]
+    },
+    {
+      "name": "Oliver White",
+      "disease": "Liver Cirrhosis",
+      "moneyRequired": 450000,
+      "url": "https://c7.alamy.com/comp/2PM7RTY/human-liver-disease-diagnosis-and-treatment-doctor-gastroenterologist-showing-liver-anatomical-model-for-treatment-hepatitis-cirrhosis-and-cancer-w-2PM7RTY.jpg",
+      "deadline": "2025-01-30T00:00:00Z",
+      "place": "Mumbai, India",
+      "hospitals": ["Tata Memorial Hospital", "Lilavati Hospital"]
+    },
+    {
+      "name": "Amelia Clarke",
+      "disease": "Pancreatic Cancer",
+      "moneyRequired": 550000,
+      "url": "https://c7.alamy.com/comp/E593XF/patient-with-oxygen-mask-in-an-operating-room-E593XF.jpg",
+      "deadline": "2025-03-15T00:00:00Z",
+      "place": "Cape Town, South Africa",
+      "hospitals": ["Groote Schuur Hospital", "Netcare Christiaan Barnard Memorial Hospital"]
+    }
+  ]
 
 
 

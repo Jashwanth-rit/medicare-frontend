@@ -1,18 +1,21 @@
 /* Navbar branding */
 .navbar-brand {
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  padding-bottom: 25px;
 }
 
 /* Navbar links */
 .navbar-nav .nav-link {
   font-size: 1.1rem;
   margin-left: 15px;
+ 
+ 
 }
 
 /* Navbar padding */
 .navbar {
-  padding: 1rem 2rem;
+
 }
 
 /* Make search bar occupy full width on smaller screens */
@@ -104,7 +107,7 @@
 }
 
 .navbar-nav .nav-link {
-  font-size: 1.1rem;
+  font-size: 0.9rem;
 }
 
 .menu-content {
