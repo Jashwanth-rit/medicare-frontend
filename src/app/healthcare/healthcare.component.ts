@@ -4,6 +4,7 @@ import { SellerService } from '../sellerservice/seller.service';
 import { Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { CartComponent } from '../cart/cart.component';
+import { HttpClient } from '@angular/common/http';
 
 
 import { FormsModule, NgForm } from '@angular/forms';  // Import NgForm
@@ -22,7 +23,7 @@ export class HealthcareComponent {
 
   healthcareTakers: any[] = [];
 
-  constructor(private seller: SellerService, private router: Router) {}
+  constructor(private seller: SellerService, private router: Router,private http: HttpClient) {}
 
 
   ngOnInit(): void {
@@ -40,8 +41,24 @@ export class HealthcareComponent {
   }
 
   bookHealthcareTaker(taker: any) {
-    alert(`Booking healthcare specialist ${taker.name}`);
-    this.router.navigate(['/home']); // Navigate to the home page
+    const bookingData = {
+      name: taker.name,
+      email: taker.email,
+      phone: taker.phone,
+      specialty: taker.specialty,
+      location: taker.location
+    };
+
+    this.http.post('http://localhost:3000/book', bookingData)
+      .subscribe(
+        (response: any) => {
+          alert('Booking request sent successfully!');
+        },
+        (error: any) => {
+          console.error('Error sending booking request:', error);
+          alert('Failed to send booking request.');
+        }
+      );
   }
 
 }

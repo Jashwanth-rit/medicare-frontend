@@ -1200,6 +1200,120 @@
   ]
 
 
+,
+"medinearby":[
+  {
+    "shopName": "HealthPlus Pharmacy",
+    "address": "123 Main Street, City Center",
+    "phoneNumber": "9876543210",
+    "availability": true,
+    "openingHours": "8 AM - 10 PM",
+    "emergencyServices": true,
+    "nearbyLocation": {
+      "type": "Point",
+      "coordinates": [77.5946, 12.9716] 
+
+    },
+    "products": [
+      {
+        "id": "P101",
+        "name": "Paracetamol",
+        "price": "50",
+        "url": "https://example.com/products/paracetamol",
+        "description": "Pain relief and fever reducer",
+        "category": "Medicine"
+      },
+      {
+        "id": "P102",
+        "name": "Vitamin C",
+        "price": "200",
+        "url": "https://example.com/products/vitamin-c",
+        "description": "Immunity booster supplement",
+        "category": "Supplements"
+      }
+    ]
+  },
+  {
+    "shopName": "CityMed Drugs",
+    "address": "45 Park Avenue, Greenfield",
+    "phoneNumber": "9123456789",
+    "availability": true,
+    "openingHours": "9 AM - 9 PM",
+    "emergencyServices": false,
+    "nearbyLocation": {
+      "type": "Point",
+      "coordinates": [77.5805, 12.9352] 
+    },
+    "products": [
+      {
+        "id": "P103",
+        "name": "Ibuprofen",
+        "price": "60",
+        "url": "https://example.com/products/ibuprofen",
+        "description": "Pain relief and anti-inflammatory",
+        "category": "Medicine"
+      }
+    ]
+  }
+]
+,
+
+"healthnearby":[
+  {
+    "id": "HT001",
+    "name": "Dr. Priya Sharma",
+    "specialty": "General Physician",
+    "phone": "8901234567",
+    "email": "priya.sharma@example.com",
+    "location": "Lakeview Apartments, City Center",
+    "availability": "10 AM - 4 PM",
+    "image": "https://example.com/healthcare/dr-priya.jpg",
+    "nearbyLocation": {
+      "type": "Point",
+      "coordinates": [77.6109, 12.9721] // Longitude, Latitude
+    }
+  },
+  {
+    "id": "HT002",
+    "name": "Dr. Ramesh Kumar",
+    "specialty": "Orthopedic Surgeon",
+    "phone": "8765432109",
+    "email": "ramesh.kumar@example.com",
+    "location": "Grand Residency, South Lane",
+    "availability": "2 PM - 8 PM",
+    "image": "https://example.com/healthcare/dr-ramesh.jpg",
+    "nearbyLocation": {
+      "type": "Point",
+      "coordinates": [77.6412, 12.9143] // Longitude, Latitude
+    }
+  }
+]
+,
+"Ambulance":[
+  {
+    "vehicleNumber": "KA01AB1234",
+    "imageurl": "https://example.com/ambulance1.jpg",
+    "phoneNumber": "911",
+    "currentPlace": "City Hospital, MG Road",
+    "availability": true,
+    "nearbyLocation": {
+      "type": "Point",
+      "coordinates": [77.5993, 12.9784] // Longitude, Latitude
+    }
+  },
+  {
+    "vehicleNumber": "KA05CD5678",
+    "imageurl": "https://example.com/ambulance2.jpg",
+    "phoneNumber": "108",
+    "currentPlace": "East Wing Medical Center",
+    "availability": false,
+    "nearbyLocation": {
+      "type": "Point",
+      "coordinates": [77.6215, 12.9345] // Longitude, Latitude
+    }
+  }
+]
+,
 
 
 
