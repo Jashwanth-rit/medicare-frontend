@@ -386,5 +386,783 @@
       "discription": "this is fashoin world",
       "category": "clothes"
     }
-  ]
-}
+  ],
+   "Products": [
+      {
+          "id": "1",
+          "name": "Product 1",
+          "price": "$433",
+          "url": "https://example.com/product1.jpg",
+          "description": "Description of product 1",
+          "category": "Bandage"
+      },
+      {
+          "id": "2",
+          "name": "Product 2",
+          "price": "$468",
+          "url": "https://example.com/product2.jpg",
+          "description": "Description of product 2",
+          "category": "Pain Killer"
+      },
+      {
+          "id": "3",
+          "name": "Product 3",
+          "price": "$233",
+          "url": "https://example.com/product3.jpg",
+          "description": "Description of product 3",
+          "category": "Gloves"
+      },
+      {
+          "id": "4",
+          "name": "Product 4",
+          "price": "$316",
+          "url": "https://example.com/product4.jpg",
+          "description": "Description of product 4",
+          "category": "Tablet"
+      },
+      {
+          "id": "5",
+          "name": "Product 5",
+          "price": "$254",
+          "url": "https://example.com/product5.jpg",
+          "description": "Description of product 5",
+          "category": "Antiseptic"
+      },
+      {
+          "id": "6",
+          "name": "Product 6",
+          "price": "$183",
+          "url": "https://example.com/product6.jpg",
+          "description": "Description of product 6",
+          "category": "Gauze"
+      },
+      {
+          "id": "7",
+          "name": "Product 7",
+          "price": "$484",
+          "url": "https://example.com/product7.jpg",
+          "description": "Description of product 7",
+          "category": "Gloves"
+      },
+      {
+          "id": "8",
+          "name": "Product 8",
+          "price": "$363",
+          "url": "https://example.com/product8.jpg",
+          "description": "Description of product 8",
+          "category": "Syringe"
+      },
+      {
+          "id": "9",
+          "name": "Product 9",
+          "price": "$347",
+          "url": "https://example.com/product9.jpg",
+          "description": "Description of product 9",
+          "category": "Gauze"
+      },
+      {
+          "id": "10",
+          "name": "Product 10",
+          "price": "$102",
+          "url": "https://example.com/product10.jpg",
+          "description": "Description of product 10",
+          "category": "Tablet"
+      },
+      {
+          "id": "11",
+          "name": "Product 11",
+          "price": "$498",
+          "url": "https://example.com/product11.jpg",
+          "description": "Description of product 11",
+          "category": "Cough Syrup"
+      },
+      {
+          "id": "12",
+          "name": "Product 12",
+          "price": "$10",
+          "url": "https://example.com/product12.jpg",
+          "description": "Description of product 12",
+          "category": "Syringe"
+      },
+      {
+          "id": "13",
+          "name": "Product 13",
+          "price": "$278",
+          "url": "https://example.com/product13.jpg",
+          "description": "Description of product 13",
+          "category": "Pain Killer"
+      },
+      {
+          "id": "14",
+          "name": "Product 14",
+          "price": "$440",
+          "url": "https://example.com/product14.jpg",
+          "description": "Description of product 14",
+          "category": "Pain Killer"
+      },
+      {
+          "id": "15",
+          "name": "Product 15",
+          "price": "$254",
+          "url": "https://example.com/product15.jpg",
+          "description": "Description of product 15",
+          "category": "Tablet"
+      },
+      {
+          "id": "16",
+          "name": "Product 16",
+          "price": "$79",
+          "url": "https://example.com/product16.jpg",
+          "description": "Description of product 16",
+          "category": "Injection"
+      },
+      {
+          "id": "17",
+          "name": "Product 17",
+          "price": "$262",
+          "url": "https://example.com/product17.jpg",
+          "description": "Description of product 17",
+          "category": "Injection"
+      },
+      {
+          "id": "18",
+          "name": "Product 18",
+          "price": "$133",
+          "url": "https://example.com/product18.jpg",
+          "description": "Description of product 18",
+          "category": "Pain Killer"
+      },
+      {
+          "id": "19",
+          "name": "Product 19",
+          "price": "$176",
+          "url": "https://example.com/product19.jpg",
+          "description": "Description of product 19",
+          "category": "Medical Mask"
+      },
+      {
+          "id": "20",
+          "name": "Product 20",
+          "price": "$277",
+          "url": "https://example.com/product20.jpg",
+          "description": "Description of product 20",
+          "category": "Medical Mask"
+      }
+  ],
+  "Healthcare": [
+    {
+        "id": "1",
+        "name": "Dr. John Doe",
+        "specialty": "Cardiologist",
+        "phone": "+1234567890",
+        "email": "johndoe@example.com",
+        "location": "123 Heart Lane, City, Country",
+        "availability": "9 AM - 5 PM",
+        "image": "https://example.com/images/dr-john-doe.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Dr. Sarah Smith",
+        "specialty": "Dermatologist",
+        "phone": "+9876543210",
+        "email": "sarahsmith@example.com",
+        "location": "456 Skin St, City, Country",
+        "availability": "10 AM - 6 PM",
+        "image": "https://example.com/images/dr-sarah-smith.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Dr. Michael Johnson",
+        "specialty": "Orthopedic Surgeon",
+        "phone": "+1122334455",
+        "email": "michaeljohnson@example.com",
+        "location": "789 Bone Blvd, City, Country",
+        "availability": "8 AM - 4 PM",
+        "image": "https://example.com/images/dr-michael-johnson.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Dr. Emma Lee",
+        "specialty": "Pediatrician",
+        "phone": "+5544332211",
+        "email": "emmalee@example.com",
+        "location": "101 Child Care Ave, City, Country",
+        "availability": "9 AM - 3 PM",
+        "image": "https://example.com/images/dr-emma-lee.jpg"
+    },
+    {
+        "id": "5",
+        "name": "Dr. William Brown",
+        "specialty": "Dentist",
+        "phone": "+6677889900",
+        "email": "williambrown@example.com",
+        "location": "202 Dental Dr, City, Country",
+        "availability": "11 AM - 7 PM",
+        "image": "https://example.com/images/dr-william-brown.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Dr. Lisa White",
+        "specialty": "Psychiatrist",
+        "phone": "+3344556677",
+        "email": "lisawhite@example.com",
+        "location": "303 Mind Care Rd, City, Country",
+        "availability": "10 AM - 4 PM",
+        "image": "https://example.com/images/dr-lisa-white.jpg"
+    },
+    {
+        "id": "7",
+        "name": "Dr. Robert Clark",
+        "specialty": "General Practitioner",
+        "phone": "+2233445566",
+        "email": "robertclark@example.com",
+        "location": "404 Health St, City, Country",
+        "availability": "9 AM - 5 PM",
+        "image": "https://example.com/images/dr-robert-clark.jpg"
+    },
+    {
+        "id": "8",
+        "name": "Dr. Karen Martinez",
+        "specialty": "Obstetrician",
+        "phone": "+1122334455",
+        "email": "karenmartinez@example.com",
+        "location": "505 Birth Blvd, City, Country",
+        "availability": "8 AM - 2 PM",
+        "image": "https://example.com/images/dr-karen-martinez.jpg"
+    },
+    {
+        "id": "9",
+        "name": "Dr. James Davis",
+        "specialty": "Neurologist",
+        "phone": "+9988776655",
+        "email": "jamesdavis@example.com",
+        "location": "606 Brain St, City, Country",
+        "availability": "9 AM - 5 PM",
+        "image": "https://example.com/images/dr-james-davis.jpg"
+    },
+    {
+        "id": "10",
+        "name": "Dr. Jennifer Wilson",
+        "specialty": "Endocrinologist",
+        "phone": "+7766554433",
+        "email": "jenniferwilson@example.com",
+        "location": "707 Hormone St, City, Country",
+        "availability": "10 AM - 6 PM",
+        "image": "https://example.com/images/dr-jennifer-wilson.jpg"
+    }
+  ],
+  "PoliceInfo":[
+    {
+        "id": "1",
+        "officerName": "Officer John Smith",
+        "badgeNumber": "A12345",
+        "station": "Central Police Station",
+        "location": "123 Main St, City, Country",
+        "contact": "+1234567890",
+        "jurisdiction": "Downtown",
+        "email": "johnsmith@example.com",
+        "image": "https://example.com/images/officer-john-smith.jpg"
+    },
+    {
+        "id": "2",
+        "officerName": "Officer Maria Johnson",
+        "badgeNumber": "B67890",
+        "station": "West End Police Station",
+        "location": "456 Elm St, City, Country",
+        "contact": "+9876543210",
+        "jurisdiction": "West End",
+        "email": "mariajohnson@example.com",
+        "image": "https://example.com/images/officer-maria-johnson.jpg"
+    },
+    {
+        "id": "3",
+        "officerName": "Officer David Lee",
+        "badgeNumber": "C11223",
+        "station": "Northside Police Station",
+        "location": "789 Pine St, City, Country",
+        "contact": "+1122334455",
+        "jurisdiction": "Northside",
+        "email": "davidlee@example.com",
+        "image": "https://example.com/images/officer-david-lee.jpg"
+    },
+    {
+        "id": "4",
+        "officerName": "Officer Emily Davis",
+        "badgeNumber": "D44556",
+        "station": "Eastside Police Station",
+        "location": "101 Maple St, City, Country",
+        "contact": "+6677889900",
+        "jurisdiction": "Eastside",
+        "email": "emilydavis@example.com",
+        "image": "https://example.com/images/officer-emily-davis.jpg"
+    },
+    {
+        "id": "5",
+        "officerName": "Officer Michael Brown",
+        "badgeNumber": "E78901",
+        "station": "South District Police Station",
+        "location": "202 Oak St, City, Country",
+        "contact": "+2233445566",
+        "jurisdiction": "South District",
+        "email": "michaelbrown@example.com",
+        "image": "https://example.com/images/officer-michael-brown.jpg"
+    },
+    {
+        "id": "6",
+        "officerName": "Officer Olivia Martinez",
+        "badgeNumber": "F34567",
+        "station": "Uptown Police Station",
+        "location": "303 Birch St, City, Country",
+        "contact": "+3344556677",
+        "jurisdiction": "Uptown",
+        "email": "oliviamartinez@example.com",
+        "image": "https://example.com/images/officer-olivia-martinez.jpg"
+    },
+    {
+        "id": "7",
+        "officerName": "Officer Daniel Wilson",
+        "badgeNumber": "G89012",
+        "station": "Riverside Police Station",
+        "location": "404 Cedar St, City, Country",
+        "contact": "+9988776655",
+        "jurisdiction": "Riverside",
+        "email": "danielwilson@example.com",
+        "image": "https://example.com/images/officer-daniel-wilson.jpg"
+    },
+    {
+        "id": "8",
+        "officerName": "Officer Sophia Lee",
+        "badgeNumber": "H23456",
+        "station": "Lakeside Police Station",
+        "location": "505 Willow St, City, Country",
+        "contact": "+7766554433",
+        "jurisdiction": "Lakeside",
+        "email": "sophialee@example.com",
+        "image": "https://example.com/images/officer-sophia-lee.jpg"
+    },
+    {
+        "id": "9",
+        "officerName": "Officer James Clark",
+        "badgeNumber": "I67890",
+        "station": "Mountain Police Station",
+        "location": "606 Pinecone St, City, Country",
+        "contact": "+1122334455",
+        "jurisdiction": "Mountain",
+        "email": "jamesclark@example.com",
+        "image": "https://example.com/images/officer-james-clark.jpg"
+    },
+    {
+        "id": "10",
+        "officerName": "Officer Isabella White",
+        "badgeNumber": "J12345",
+        "station": "City Center Police Station",
+        "location": "707 Birchwood St, City, Country",
+        "contact": "+6677889900",
+        "jurisdiction": "City Center",
+        "email": "isabellawhite@example.com",
+        "image": "https://example.com/images/officer-isabella-white.jpg"
+    }
+],
+"FireExtinguisher":[
+  {
+      "id": "1",
+      "type": "CO2",
+      "location": "Storage Room 1",
+      "maintenanceDate": "2023-10-01T00:00:00Z",
+      "expiryDate": "2025-10-01T00:00:00Z",
+      "capacity": "5kg",
+      "contact": "+1234567890",
+      "image": "https://example.com/images/fire-extinguisher-co2.jpg"
+  },
+  {
+      "id": "2",
+      "type": "Foam",
+      "location": "Office Area 2",
+      "maintenanceDate": "2023-05-10T00:00:00Z",
+      "expiryDate": "2025-05-10T00:00:00Z",
+      "capacity": "10kg",
+      "contact": "+2345678901",
+      "image": "https://example.com/images/fire-extinguisher-foam.jpg"
+  },
+  {
+      "id": "3",
+      "type": "Water",
+      "location": "Lobby",
+      "maintenanceDate": "2023-07-15T00:00:00Z",
+      "expiryDate": "2026-07-15T00:00:00Z",
+      "capacity": "7kg",
+      "contact": "+3456789012",
+      "image": "https://example.com/images/fire-extinguisher-water.jpg"
+  },
+  {
+      "id": "4",
+      "type": "CO2",
+      "location": "Kitchen",
+      "maintenanceDate": "2023-03-20T00:00:00Z",
+      "expiryDate": "2025-03-20T00:00:00Z",
+      "capacity": "3kg",
+      "contact": "+4567890123",
+      "image": "https://example.com/images/fire-extinguisher-co2-kitchen.jpg"
+  },
+  {
+      "id": "5",
+      "type": "Foam",
+      "location": "Warehouse",
+      "maintenanceDate": "2023-11-01T00:00:00Z",
+      "expiryDate": "2026-11-01T00:00:00Z",
+      "capacity": "20kg",
+      "contact": "+5678901234",
+      "image": "https://example.com/images/fire-extinguisher-foam-warehouse.jpg"
+  },
+  {
+      "id": "6",
+      "type": "Water",
+      "location": "Server Room",
+      "maintenanceDate": "2023-09-10T00:00:00Z",
+      "expiryDate": "2025-09-10T00:00:00Z",
+      "capacity": "12kg",
+      "contact": "+6789012345",
+      "image": "https://example.com/images/fire-extinguisher-water-server-room.jpg"
+  },
+  {
+      "id": "7",
+      "type": "CO2",
+      "location": "Parking Garage",
+      "maintenanceDate": "2023-04-15T00:00:00Z",
+      "expiryDate": "2025-04-15T00:00:00Z",
+      "capacity": "8kg",
+      "contact": "+7890123456",
+      "image": "https://example.com/images/fire-extinguisher-co2-parking.jpg"
+  },
+  {
+      "id": "8",
+      "type": "Foam",
+      "location": "Production Floor",
+      "maintenanceDate": "2023-06-25T00:00:00Z",
+      "expiryDate": "2026-06-25T00:00:00Z",
+      "capacity": "15kg",
+      "contact": "+8901234567",
+      "image": "https://example.com/images/fire-extinguisher-foam-production.jpg"
+  },
+  {
+      "id": "9",
+      "type": "Water",
+      "location": "Hallway",
+      "maintenanceDate": "2023-01-30T00:00:00Z",
+      "expiryDate": "2026-01-30T00:00:00Z",
+      "capacity": "5kg",
+      "contact": "+9012345678",
+      "image": "https://example.com/images/fire-extinguisher-water-hallway.jpg"
+  },
+  {
+      "id": "10",
+      "type": "CO2",
+      "location": "Conference Room",
+      "maintenanceDate": "2023-08-05T00:00:00Z",
+      "expiryDate": "2025-08-05T00:00:00Z",
+      "capacity": "6kg",
+      "contact": "+1230987654",
+      "image": "https://example.com/images/fire-extinguisher-co2-conference.jpg"
+  }
+],
+"PatientSchema":[
+  {
+    "name": "John Doe",
+    "disease": "Cancer",
+    "moneyRequired": 50000,
+    "deadline": "2024-12-31T00:00:00Z",
+    "place": "New York, USA",
+    "hospitals": ["Hospital A", "Hospital B"]
+  },
+  {
+    "name": "Jane Smith",
+    "disease": "Heart Disease",
+    "moneyRequired": 20000,
+    "deadline": "2025-03-15T00:00:00Z",
+    "place": "Los Angeles, USA",
+    "hospitals": ["Heart Institute", "General Hospital"]
+  },
+  {
+    "name": "David Lee",
+    "disease": "Diabetes",
+    "moneyRequired": 10000,
+    "deadline": "2025-06-01T00:00:00Z",
+    "place": "San Francisco, USA",
+    "hospitals": ["Diabetes Center", "City Hospital"]
+  },
+  {
+    "name": "Emily Brown",
+    "disease": "Stroke",
+    "moneyRequired": 30000,
+    "deadline": "2024-11-15T00:00:00Z",
+    "place": "Chicago, USA",
+    "hospitals": ["Rehabilitation Center", "Neurology Clinic"]
+  },
+  {
+    "name": "Michael Johnson",
+    "disease": "Pneumonia",
+    "moneyRequired": 15000,
+    "deadline": "2024-12-15T00:00:00Z",
+    "place": "Miami, USA",
+    "hospitals": ["Lung Care Hospital", "City Medical Center"]
+  },
+  {
+    "name": "Sarah White",
+    "disease": "Kidney Failure",
+    "moneyRequired": 40000,
+    "deadline": "2025-01-20T00:00:00Z",
+    "place": "Houston, USA",
+    "hospitals": ["Kidney Transplant Center", "Healthcare Hospital"]
+  },
+  {
+    "name": "Chris Green",
+    "disease": "Leukemia",
+    "moneyRequired": 60000,
+    "deadline": "2025-05-10T00:00:00Z",
+    "place": "Dallas, USA",
+    "hospitals": ["Cancer Treatment Center", "City Hospital"]
+  },
+  {
+    "name": "Lisa Black",
+    "disease": "Asthma",
+    "moneyRequired": 8000,
+    "deadline": "2024-10-05T00:00:00Z",
+    "place": "Seattle, USA",
+    "hospitals": ["Respiratory Care Center", "General Hospital"]
+  },
+  {
+    "name": "James Taylor",
+    "disease": "Chronic Obstructive Pulmonary Disease",
+    "moneyRequired": 25000,
+    "deadline": "2025-02-25T00:00:00Z",
+    "place": "San Diego, USA",
+    "hospitals": ["Pulmonary Institute", "Care Medical Center"]
+  },
+  {
+    "name": "Olivia Davis",
+    "disease": "Alzheimer's Disease",
+    "moneyRequired": 45000,
+    "deadline": "2025-07-18T00:00:00Z",
+    "place": "Boston, USA",
+    "hospitals": ["Memory Care Center", "Neurology Clinic"]
+  }
+],
+"carouselSchema":[
+  {
+    "id": "1",
+    "name": "Paracetamol",
+    "price": "50",
+    "url": "https://example.com/images/paracetamol.jpg",
+    "description": "Used to relieve mild to moderate pain and reduce fever.",
+    "category": "Pain Relief"
+  },
+  {
+    "id": "2",
+    "name": "Ibuprofen",
+    "price": "70",
+    "url": "https://example.com/images/ibuprofen.jpg",
+    "description": "Nonsteroidal anti-inflammatory drug (NSAID) used to reduce fever and treat pain.",
+    "category": "Pain Relief"
+  },
+  {
+    "id": "3",
+    "name": "Amoxicillin",
+    "price": "150",
+    "url": "https://example.com/images/amoxicillin.jpg",
+    "description": "An antibiotic used to treat a wide variety of bacterial infections.",
+    "category": "Antibiotic"
+  },
+  {
+    "id": "4",
+    "name": "Cetirizine",
+    "price": "120",
+    "url": "https://example.com/images/cetirizine.jpg",
+    "description": "An antihistamine used to treat allergy symptoms such as sneezing and itching.",
+    "category": "Allergy"
+  },
+  {
+    "id": "5",
+    "name": "Loratadine",
+    "price": "90",
+    "url": "https://example.com/images/loratadine.jpg",
+    "description": "An antihistamine used to relieve allergy symptoms such as runny nose and sneezing.",
+    "category": "Allergy"
+  },
+  {
+    "id": "6",
+    "name": "Metformin",
+    "price": "200",
+    "url": "https://example.com/images/metformin.jpg",
+    "description": "A medication used to treat type 2 diabetes.",
+    "category": "Diabetes"
+  },
+  {
+    "id": "7",
+    "name": "Salbutamol",
+    "price": "60",
+    "url": "https://example.com/images/salbutamol.jpg",
+    "description": "A bronchodilator used to relieve bronchospasm in conditions such as asthma.",
+    "category": "Asthma"
+  },
+  {
+    "id": "8",
+    "name": "Amlodipine",
+    "price": "120",
+    "url": "https://example.com/images/amlodipine.jpg",
+    "description": "A calcium channel blocker used to treat high blood pressure and angina.",
+    "category": "Cardiovascular"
+  },
+  {
+    "id": "9",
+    "name": "Omeprazole",
+    "price": "150",
+    "url": "https://example.com/images/omeprazole.jpg",
+    "description": "A medication used to treat acid reflux and peptic ulcers.",
+    "category": "Gastrointestinal"
+  },
+  {
+    "id": "10",
+    "name": "Dexamethasone",
+    "price": "180",
+    "url": "https://example.com/images/dexamethasone.jpg",
+    "description": "A corticosteroid used to treat inflammation and immune system disorders.",
+    "category": "Steroids"
+  }
+],
+"AmbulanceSchema":[
+  {
+    "vehicleNumber": "KA-01-1234",
+    "imageurl": "https://example.com/images/ambulance1.jpg",
+    "phoneNumber": "123-456-7890",
+    "currentPlace": "Bangalore, Karnataka",
+    "availability": true
+  },
+  {
+    "vehicleNumber": "KA-02-5678",
+    "imageurl": "https://example.com/images/ambulance2.jpg",
+    "phoneNumber": "987-654-3210",
+    "currentPlace": "Mysore, Karnataka",
+    "availability": false
+  },
+  {
+    "vehicleNumber": "KA-03-9876",
+    "imageurl": "https://example.com/images/ambulance3.jpg",
+    "phoneNumber": "555-111-2222",
+    "currentPlace": "Hubli, Karnataka",
+    "availability": true
+  },
+  {
+    "vehicleNumber": "KA-04-2468",
+    "imageurl": "https://example.com/images/ambulance4.jpg",
+    "phoneNumber": "666-222-3333",
+    "currentPlace": "Mangalore, Karnataka",
+    "availability": true
+  },
+  {
+    "vehicleNumber": "KA-05-1357",
+    "imageurl": "https://example.com/images/ambulance5.jpg",
+    "phoneNumber": "777-888-9999",
+    "currentPlace": "Shimoga, Karnataka",
+    "availability": false
+  }
+]
+,
+"MedicalShopSchema":[
+  {
+    "shopName": "Health Plus Pharmacy",
+    "address": "123 Main St, Bangalore, Karnataka",
+    "phoneNumber": "080-12345678",
+    "availability": true,
+    "openingHours": "8 AM - 10 PM",
+    "emergencyServices": true
+  },
+  {
+    "shopName": "LifeCare Medical Store",
+    "address": "456 MG Road, Mysore, Karnataka",
+    "phoneNumber": "0821-23456789",
+    "availability": false,
+    "openingHours": "9 AM - 8 PM",
+    "emergencyServices": false
+  },
+  {
+    "shopName": "MedStar Pharmacy",
+    "address": "789 Jayanagar, Bangalore, Karnataka",
+    "phoneNumber": "080-98765432",
+    "availability": true,
+    "openingHours": "7 AM - 11 PM",
+    "emergencyServices": true
+  },
+  {
+    "shopName": "CureWell Pharmacy",
+    "address": "101 Indiranagar, Bangalore, Karnataka",
+    "phoneNumber": "080-55667788",
+    "availability": true,
+    "openingHours": "8 AM - 10 PM",
+    "emergencyServices": false
+  },
+  {
+    "shopName": "MedicCare Pharmacy",
+    "address": "202 Koramangala, Bangalore, Karnataka",
+    "phoneNumber": "080-44556677",
+    "availability": true,
+    "openingHours": "10 AM - 6 PM",
+    "emergencyServices": true
+  }
+]
+,
+"DoctorSchema":[
+  {
+    "doctorName": "Dr. Sarah Smith",
+    "imageurl": "https://example.com/images/dr_sarah.jpg",
+    "age": 45,
+    "fees": 500,
+    "category": "Physical Treatment",
+    "availability": true,
+    "createdAt": "2024-12-21T10:00:00Z"
+  },
+  {
+    "doctorName": "Dr. John Doe",
+    "imageurl": "https://example.com/images/dr_john.jpg",
+    "age": 50,
+    "fees": 600,
+    "category": "Mental Health",
+    "availability": false,
+    "createdAt": "2024-12-20T14:30:00Z"
+  },
+  {
+    "doctorName": "Dr. Emma Watson",
+    "imageurl": "https://example.com/images/dr_emma.jpg",
+    "age": 38,
+    "fees": 450,
+    "category": "Suggestions",
+    "availability": true,
+    "createdAt": "2024-12-19T09:00:00Z"
+  },
+  {
+    "doctorName": "Dr. Michael Clark",
+    "imageurl": "https://example.com/images/dr_michael.jpg",
+    "age": 48,
+    "fees": 550,
+    "category": "Precautions",
+    "availability": true,
+    "createdAt": "2024-12-18T11:15:00Z"
+  },
+  {
+    "doctorName": "Dr. Jessica Lee",
+    "imageurl": "https://example.com/images/dr_jessica.jpg",
+    "age": 40,
+    "fees": 650,
+    "category": "Pregnancy",
+    "availability": false,
+    "createdAt": "2024-12-17T13:00:00Z"
+  }
+]
+
+
+
+
+
+
+
+
+     

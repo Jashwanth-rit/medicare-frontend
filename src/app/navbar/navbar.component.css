@@ -129,3 +129,18 @@
 .navbar{
   background-color: black;
 }
+
+/* Styling for the "+" symbol */
+.plus-sign {
+ 
+  color: red;
+  font-size: 3rem; /* Adjust size if needed */
+  font-weight: bold;
+}
+
+/* Styling for the "Medicare" text */
+.medicare-text {
+ 
+  font-size: 1.75rem; /* Adjust size if needed */
+  font-weight: bold;
+}
