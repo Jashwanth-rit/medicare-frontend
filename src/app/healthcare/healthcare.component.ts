@@ -39,4 +39,9 @@ export class HealthcareComponent {
     );
   }
 
+  bookHealthcareTaker(taker: any) {
+    alert(`Booking healthcare specialist ${taker.name}`);
+    this.router.navigate(['/home']); // Navigate to the home page
+  }
+
 }

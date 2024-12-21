@@ -38,5 +38,10 @@ export class FireservicesComponent {
       }
     );
   }
+  requestMaintenance(extinguisher: any) {
+    alert(`Requesting maintenance for Fire Extinguisher ID: ${extinguisher.id}`);
+    this.router.navigate(['/home']); // Navigate to the home page
+  }
+  
 
 }

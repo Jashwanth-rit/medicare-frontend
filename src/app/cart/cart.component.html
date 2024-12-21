@@ -9,15 +9,16 @@
         <span>{{ item.name }}</span>
         <span>Price: ${{ item.price }}</span>
       </div>
-      <button (click)="delete(item.id)">
+      <button (click)="delete(item._id)">
         remove
       </button>
       <button (click)="buy({
+
         id: item.id, 
         price: item.price, 
         name: item.name, 
         url: item.url ,
-        discription:item.discription,
+        description:item.discription,
         category:item.category
       })">
         Buy

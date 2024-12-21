@@ -56,3 +56,35 @@
     color: red;
     font-weight: bold;
   }
+
+  .ambulance-actions {
+    margin-top: 10px;
+  }
+  
+  .book-btn, .call-btn {
+    padding: 8px 12px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .book-btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .call-btn {
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .book-btn:hover {
+    background-color: #218838;
+  }
+  
+  .call-btn:hover {
+    background-color: #0056b3;
+  }
+  

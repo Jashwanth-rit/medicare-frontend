@@ -58,4 +58,34 @@
     color: red;
     font-weight: bold;
   }
+  .extinguisher-actions {
+    margin-top: 10px;
+  }
+  
+  .request-btn, .call-btn {
+    padding: 8px 12px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .request-btn {
+    background-color: #ffc107;
+    color: black;
+  }
+  
+  .call-btn {
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .request-btn:hover {
+    background-color: #e0a800;
+  }
+  
+  .call-btn:hover {
+    background-color: #0056b3;
+  }
   

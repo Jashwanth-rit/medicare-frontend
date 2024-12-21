@@ -58,7 +58,9 @@ setTimeout(() => (this.delmsg = undefined), 3000);
   console.warn("entered");
 
   this.products.forEach((product: any) => {
-    let price = parseFloat(product.price); // Convert price from string to number
+    // Remove the dollar sign and convert to a number
+    let price = parseFloat(product.price.replace(/[^0-9.]/g, '')); 
+  
     if (!isNaN(price)) {
       console.warn(price);
       totalCost += price; // Add the price to totalCost
@@ -66,6 +68,8 @@ setTimeout(() => (this.delmsg = undefined), 3000);
       console.warn("Invalid price:", product.price); // Handle invalid price
     }
   });
+  console.log("Total cost:", totalCost);
+  
 
   console.warn("Total cost:", totalCost);
   return totalCost;
@@ -93,7 +97,7 @@ setTimeout(() => (this.delmsg = undefined), 3000);
       id: product.id,
       name: product.name,
       price: product.price,
-      discription: product.discription,
+      description: product.description,
       url: product.url,
       category: product.category,
 

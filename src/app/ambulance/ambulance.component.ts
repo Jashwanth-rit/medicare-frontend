@@ -38,4 +38,9 @@ export class AmbulanceComponent {
     );
   }
 
+  bookAmbulance(ambulance: any) {
+    alert(`Booking ambulance ${ambulance.vehicleNumber}`);
+    this.router.navigate(['/']); // Navigate to the home page
+  }
+
 }

@@ -46,4 +46,36 @@
     color: red;
     font-weight: bold;
   }
+
+  .police-actions {
+    margin-top: 10px;
+  }
+  
+  .call-btn, .email-btn {
+    padding: 8px 12px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .call-btn {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .email-btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .call-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .email-btn:hover {
+    background-color: #218838;
+  }
+  
   

@@ -1,17 +1,38 @@
 <div *ngFor="let taker of healthcareTakers" class="healthcare-card">
-    <img 
-      [src]="taker.image" 
-      [alt]="taker.name" 
-      class="healthcare-image" 
-    />
-    <div class="healthcare-info">
-      <p><strong>Name:</strong> {{ taker.name }}</p>
-      <p><strong>Specialty:</strong> {{ taker.specialty }}</p>
-      <p><strong>Phone:</strong> {{ taker.phone }}</p>
-      <p><strong>Email:</strong> {{ taker.email }}</p>
-      <p><strong>Location:</strong> {{ taker.location }}</p>
-      <p><strong>Availability:</strong> {{ taker.availability }}</p>
+  <img 
+    [src]="taker.image" 
+    [alt]="taker.name" 
+    class="healthcare-image" 
+  />
+  <div class="healthcare-info">
+    <p><strong>Name:</strong> {{ taker.name }}</p>
+    <p><strong>Specialty:</strong> {{ taker.specialty }}</p>
+    <p><strong>Phone:</strong> {{ taker.phone }}</p>
+    <p><strong>Email:</strong> {{ taker.email }}</p>
+    <p><strong>Location:</strong> {{ taker.location }}</p>
+    <p><strong>Availability:</strong> 
+      <span [ngClass]="taker.availability ? 'available' : 'unavailable'">
+        {{ taker.availability ? 'Available' : 'Unavailable' }}
+      </span>
+    </p>
+    <div class="healthcare-actions">
+      <button 
+        *ngIf="taker.availability" 
+        class="book-btn" 
+        (click)="bookHealthcareTaker(taker)"
+      >
+        Book
+      </button>
+      <a 
+        href="tel:{{ taker.phone }}" 
+        class="call-btn"
+      >
+        Call
+      </a>
     </div>
   </div>
-  
-  <h2 *ngIf="!healthcareTakers || healthcareTakers.length === 0" class="empty">No Healthcare nearby</h2>
+</div>
+
+<h2 *ngIf="!healthcareTakers || healthcareTakers.length === 0" class="empty">
+  No Healthcare nearby
+</h2>
