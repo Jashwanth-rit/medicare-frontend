@@ -870,7 +870,7 @@
     "id": "1",
     "name": "Paracetamol",
     "price": "50",
-    "url": "https://example.com/images/paracetamol.jpg",
+    "url": "https://5.imimg.com/data5/SELLER/Default/2022/9/IV/UY/CG/75459511/500mg-paracetamol-tablet.jpg",
     "description": "Used to relieve mild to moderate pain and reduce fever.",
     "category": "Pain Relief"
   },
@@ -878,7 +878,7 @@
     "id": "2",
     "name": "Ibuprofen",
     "price": "70",
-    "url": "https://example.com/images/ibuprofen.jpg",
+    "url": "https://www.ashcroftpharmacy.co.uk/uploads/images/products/large/ashcroft-pharmacy-ibuprofen-400mg-tablets-24-tablets-1722352606Ibuprofen-400mg-Tablets.jpg",
     "description": "Nonsteroidal anti-inflammatory drug (NSAID) used to reduce fever and treat pain.",
     "category": "Pain Relief"
   },
@@ -886,7 +886,7 @@
     "id": "3",
     "name": "Amoxicillin",
     "price": "150",
-    "url": "https://example.com/images/amoxicillin.jpg",
+    "url": "https://5.imimg.com/data5/ANDROID/Default/2023/4/302037696/HU/JI/VN/116627000/product-jpeg.jpg",
     "description": "An antibiotic used to treat a wide variety of bacterial infections.",
     "category": "Antibiotic"
   },
@@ -894,7 +894,7 @@
     "id": "4",
     "name": "Cetirizine",
     "price": "120",
-    "url": "https://example.com/images/cetirizine.jpg",
+    "url": "https://4.imimg.com/data4/MU/BW/MY-4092588/cetirizine-tablets-500x500.jpg",
     "description": "An antihistamine used to treat allergy symptoms such as sneezing and itching.",
     "category": "Allergy"
   },
@@ -902,7 +902,7 @@
     "id": "5",
     "name": "Loratadine",
     "price": "90",
-    "url": "https://example.com/images/loratadine.jpg",
+    "url": "https://5.imimg.com/data5/SELLER/Default/2023/2/UI/LC/NK/103975623/lorfast-meltab-loratadine-10mg-tablet.jpeg",
     "description": "An antihistamine used to relieve allergy symptoms such as runny nose and sneezing.",
     "category": "Allergy"
   },
@@ -910,7 +910,7 @@
     "id": "6",
     "name": "Metformin",
     "price": "200",
-    "url": "https://example.com/images/metformin.jpg",
+    "url": "https://5.imimg.com/data5/SELLER/Default/2023/8/332774949/NY/WA/ZJ/6299000/metformin-hydrochloride-tablets-500x500.jpeg",
     "description": "A medication used to treat type 2 diabetes.",
     "category": "Diabetes"
   },
@@ -918,7 +918,7 @@
     "id": "7",
     "name": "Salbutamol",
     "price": "60",
-    "url": "https://example.com/images/salbutamol.jpg",
+    "url": "https://5.imimg.com/data5/SELLER/PDFImage/2023/9/341330735/XY/NW/CT/101900450/asthalin-inhaler.png",
     "description": "A bronchodilator used to relieve bronchospasm in conditions such as asthma.",
     "category": "Asthma"
   },
@@ -926,7 +926,7 @@
     "id": "8",
     "name": "Amlodipine",
     "price": "120",
-    "url": "https://example.com/images/amlodipine.jpg",
+    "url": "https://5.imimg.com/data5/SELLER/Default/2023/7/326770036/BL/UA/BR/135658020/amlodipine-tablets-ip-5-mg.jpg",
     "description": "A calcium channel blocker used to treat high blood pressure and angina.",
     "category": "Cardiovascular"
   },
@@ -934,7 +934,7 @@
     "id": "9",
     "name": "Omeprazole",
     "price": "150",
-    "url": "https://example.com/images/omeprazole.jpg",
+    "url": "https://5.imimg.com/data5/SELLER/Default/2023/8/333617770/HU/CV/CM/65567988/omeprazole-40mg-tablet.jpg",
     "description": "A medication used to treat acid reflux and peptic ulcers.",
     "category": "Gastrointestinal"
   },
@@ -942,7 +942,7 @@
     "id": "10",
     "name": "Dexamethasone",
     "price": "180",
-    "url": "https://example.com/images/dexamethasone.jpg",
+    "url": "https://5.imimg.com/data5/SELLER/Default/2022/9/WF/IH/HU/76282239/dexamethasone-tablet-4-mg.jpg",
     "description": "A corticosteroid used to treat inflammation and immune system disorders.",
     "category": "Steroids"
   }
