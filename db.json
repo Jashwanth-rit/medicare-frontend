@@ -772,7 +772,7 @@
       "expiryDate": "2025-10-01T00:00:00Z",
       "capacity": "5kg",
       "contact": "+1234567890",
-      "image": "https://example.com/images/fire-extinguisher-co2.jpg"
+      "image": "https://www.scutumsoutheast.co.uk/wp-         content/uploads/2024/04/DSC09006-640x940-c-center.jpg"
   },
   {
       "id": "2",
@@ -782,7 +782,7 @@
       "expiryDate": "2025-05-10T00:00:00Z",
       "capacity": "10kg",
       "contact": "+2345678901",
-      "image": "https://example.com/images/fire-extinguisher-foam.jpg"
+      "image": "https://media.istockphoto.com/id/183431381/photo/foam-fire-extinguisher.jpg?s=612x612&w=0&k=20&c=j1XCM8Zzozv2y9kq3yQLPsURerHXZAKf-m7o7koKT_M="
   },
   {
       "id": "3",
@@ -792,7 +792,7 @@
       "expiryDate": "2026-07-15T00:00:00Z",
       "capacity": "7kg",
       "contact": "+3456789012",
-      "image": "https://example.com/images/fire-extinguisher-water.jpg"
+      "image": "https://checkfire.co.uk/wp-content/uploads/2019/05/A-Guide-to-Water-Blog-Image.jpg"
   },
   {
       "id": "4",
@@ -802,7 +802,7 @@
       "expiryDate": "2025-03-20T00:00:00Z",
       "capacity": "3kg",
       "contact": "+4567890123",
-      "image": "https://example.com/images/fire-extinguisher-co2-kitchen.jpg"
+      "image": "https://safexfire.com/wp-content/uploads/2021/06/Untitled-design-6.jpg"
   },
   {
       "id": "5",
@@ -812,7 +812,7 @@
       "expiryDate": "2026-11-01T00:00:00Z",
       "capacity": "20kg",
       "contact": "+5678901234",
-      "image": "https://example.com/images/fire-extinguisher-foam-warehouse.jpg"
+      "image": "https://www.firearmour.com.sg/wp-content/uploads/2022/02/Fire-Extinguisher-Singapore-Kitchen-2022-002-scaled.jpg"
   },
   {
       "id": "6",
@@ -822,7 +822,7 @@
       "expiryDate": "2025-09-10T00:00:00Z",
       "capacity": "12kg",
       "contact": "+6789012345",
-      "image": "https://example.com/images/fire-extinguisher-water-server-room.jpg"
+      "image": "https://5.imimg.com/data5/YH/AO/MY-13407953/water-fire-extinguisher.jpg"
   },
   {
       "id": "7",
@@ -832,7 +832,7 @@
       "expiryDate": "2025-04-15T00:00:00Z",
       "capacity": "8kg",
       "contact": "+7890123456",
-      "image": "https://example.com/images/fire-extinguisher-co2-parking.jpg"
+      "image": "https://www.firefighter.com.my/cdn/shop/files/Stand-yellow_2048x2048b_c69d23fc-1c83-437c-8e58-26bfc5e543f8.jpg?v=1688092415"
   },
   {
       "id": "8",
@@ -842,7 +842,7 @@
       "expiryDate": "2026-06-25T00:00:00Z",
       "capacity": "15kg",
       "contact": "+8901234567",
-      "image": "https://example.com/images/fire-extinguisher-foam-production.jpg"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9Pa45MyfSM0OfevQ3KRyGfV8kqyhJgg_EUA&s"
   },
   {
       "id": "9",
@@ -852,7 +852,7 @@
       "expiryDate": "2026-01-30T00:00:00Z",
       "capacity": "5kg",
       "contact": "+9012345678",
-      "image": "https://example.com/images/fire-extinguisher-water-hallway.jpg"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVoUrdH5TIG0u5FoLoKW0g0VbdhGQqrp-twg&s"
   },
   {
       "id": "10",
@@ -862,89 +862,7 @@
       "expiryDate": "2025-08-05T00:00:00Z",
       "capacity": "6kg",
       "contact": "+1230987654",
-      "image": "https://example.com/images/fire-extinguisher-co2-conference.jpg"
-  }
-],
-"PatientSchema":[
-  {
-    "name": "John Doe",
-    "disease": "Cancer",
-    "moneyRequired": 50000,
-    "deadline": "2024-12-31T00:00:00Z",
-    "place": "New York, USA",
-    "hospitals": ["Hospital A", "Hospital B"]
-  },
-  {
-    "name": "Jane Smith",
-    "disease": "Heart Disease",
-    "moneyRequired": 20000,
-    "deadline": "2025-03-15T00:00:00Z",
-    "place": "Los Angeles, USA",
-    "hospitals": ["Heart Institute", "General Hospital"]
-  },
-  {
-    "name": "David Lee",
-    "disease": "Diabetes",
-    "moneyRequired": 10000,
-    "deadline": "2025-06-01T00:00:00Z",
-    "place": "San Francisco, USA",
-    "hospitals": ["Diabetes Center", "City Hospital"]
-  },
-  {
-    "name": "Emily Brown",
-    "disease": "Stroke",
-    "moneyRequired": 30000,
-    "deadline": "2024-11-15T00:00:00Z",
-    "place": "Chicago, USA",
-    "hospitals": ["Rehabilitation Center", "Neurology Clinic"]
-  },
-  {
-    "name": "Michael Johnson",
-    "disease": "Pneumonia",
-    "moneyRequired": 15000,
-    "deadline": "2024-12-15T00:00:00Z",
-    "place": "Miami, USA",
-    "hospitals": ["Lung Care Hospital", "City Medical Center"]
-  },
-  {
-    "name": "Sarah White",
-    "disease": "Kidney Failure",
-    "moneyRequired": 40000,
-    "deadline": "2025-01-20T00:00:00Z",
-    "place": "Houston, USA",
-    "hospitals": ["Kidney Transplant Center", "Healthcare Hospital"]
-  },
-  {
-    "name": "Chris Green",
-    "disease": "Leukemia",
-    "moneyRequired": 60000,
-    "deadline": "2025-05-10T00:00:00Z",
-    "place": "Dallas, USA",
-    "hospitals": ["Cancer Treatment Center", "City Hospital"]
-  },
-  {
-    "name": "Lisa Black",
-    "disease": "Asthma",
-    "moneyRequired": 8000,
-    "deadline": "2024-10-05T00:00:00Z",
-    "place": "Seattle, USA",
-    "hospitals": ["Respiratory Care Center", "General Hospital"]
-  },
-  {
-    "name": "James Taylor",
-    "disease": "Chronic Obstructive Pulmonary Disease",
-    "moneyRequired": 25000,
-    "deadline": "2025-02-25T00:00:00Z",
-    "place": "San Diego, USA",
-    "hospitals": ["Pulmonary Institute", "Care Medical Center"]
-  },
-  {
-    "name": "Olivia Davis",
-    "disease": "Alzheimer's Disease",
-    "moneyRequired": 45000,
-    "deadline": "2025-07-18T00:00:00Z",
-    "place": "Boston, USA",
-    "hospitals": ["Memory Care Center", "Neurology Clinic"]
+      "image": "https://5.imimg.com/data5/BP/XC/MY-35345229/co2-fire-extinguisher-gas.jpg"
   }
 ],
 "carouselSchema":[
