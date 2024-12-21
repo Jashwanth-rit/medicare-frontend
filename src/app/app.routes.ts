@@ -10,7 +10,7 @@ import { UserLoginComponent } from './user-login/user-login.component';
 import { DetailsComponent } from './details/details.component';
 import { CartComponent } from './cart/cart.component';
 import { SearchProductsComponent } from './search-products/search-products.component';
-import { userAuthGuard } from './user-auth.guard';
+// import { userAuthGuard } from './user-auth.guard';
 import { BuyProductComponent } from './buy-product/buy-product.component';
 import { OrdersComponent } from './orders/orders.component';
 import { SearchSellerComponent } from './search-seller/search-seller.component';
@@ -93,47 +93,47 @@ export const routes: Routes = [
     {
         path:'seller-home',
         component:SellerHomeComponent,
-        canActivate:[sellerauthGuard]
+        // canActivate:[sellerauthGuard]
     },
     {
         path:'seller-add',
         component:SellerAddProductComponent,
-        canActivate:[sellerauthGuard]
+        // canActivate:[sellerauthGuard]
     },
     {
         path:'update-product/:id',
         component:ProductUpdateComponent,
-        canActivate:[sellerauthGuard]
+       
     },
     {
         path:'product-details/:id',
         component:DetailsComponent,
-        canActivate:[userAuthGuard]
+      
     },
     {
         path:'cart',
         component:CartComponent,
-        canActivate:[userAuthGuard]
+       
     },
     {
         path:'search-products/:query',
         component:SearchProductsComponent,
-        canActivate:[userAuthGuard]
+        
     },
     {
         path:'search-seller/:query',
         component:SearchSellerComponent,
-        canActivate:[userAuthGuard]
+       
     },
     {
         path:'buy',
         component:BuyProductComponent,
-        canActivate:[userAuthGuard]
+        
     },
     {
         path:'orders',
         component:OrdersComponent,
-        canActivate:[userAuthGuard]
+       
     },
     {
         path:'user-login',

@@ -1,4 +1,4 @@
 export const environment = {
-  production: true,
-  backendUrl: 'https://medicare-project-one.vercel.app'
+  production: false,
+  backendUrl: 'https://medicare-project-one.vercel.app/'
 };
