@@ -5,6 +5,8 @@ import { Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { CartComponent } from '../cart/cart.component';
 import { HttpClient } from '@angular/common/http';
+import { isPlatformBrowser } from '@angular/common';
+import {  Inject, PLATFORM_ID, OnInit } from '@angular/core';
 
 
 import { FormsModule, NgForm } from '@angular/forms';  // Import NgForm
@@ -20,14 +22,38 @@ import { HttpClientModule } from '@angular/common/http';
 })
 export class HealthcareComponent {
 
-
+  medicalShops: any[] = [];
+  error: string | null = null;
   healthcareTakers: any[] = [];
 
-  constructor(private seller: SellerService, private router: Router,private http: HttpClient) {}
+  constructor(private seller: SellerService, private router: Router,private http: HttpClient, 
+    @Inject(PLATFORM_ID) private platformId: Object) {}
 
 
   ngOnInit(): void {
-    this.getHealthcareTakers();
+
+     // Get user's current location
+     if (isPlatformBrowser(this.platformId)) {
+      // Get user's current location
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(
+          (position) => {
+            const { latitude, longitude } = position.coords;
+            console.log('Latitude:', latitude, 'Longitude:', longitude);
+            this.fetchNearbyMedicalShops(latitude, longitude);
+          },
+          (error) => {
+            console.error('Error getting location:', error);
+            this.error = 'Could not fetch your location. Please enable location services.';
+          }
+        );
+      } else {
+        this.error = 'Geolocation is not supported by your browser.';
+      }
+    } else {
+      this.error = 'Geolocation is not available in the server environment.';
+    }
+    // this.getHealthcareTakers();
   }
 
   getHealthcareTakers(): void {
@@ -38,6 +64,17 @@ export class HealthcareComponent {
       },
       (error: any) => console.error('Error fetching healthcare takers:', error)
     );
+  }
+
+  fetchNearbyMedicalShops(latitude: number, longitude: number): void {
+    const maxDistance = 3000; // Example: 3 km
+    this.seller.getNearbyMedicalShops(latitude, longitude, maxDistance).subscribe({
+      next: (data) => (this.medicalShops = data),
+      error: (err) => {
+        console.error('Error fetching nearby medical shops:', err);
+        this.error = 'Failed to fetch nearby medical shops.';
+      },
+    });
   }
 
   bookHealthcareTaker(taker: any) {

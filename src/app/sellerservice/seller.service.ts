@@ -223,6 +223,10 @@ export class SellerService {
   getHealthcareTakers(): Observable<any> {
     return this.http.get<any>(`${environment.backendUrl}/healthcare-takers`);
   }
+  getNearbyMedicalShops(latitude: number, longitude: number, maxDistance: number): Observable<any> {
+    const url = `${environment.backendUrl}/medical-shops/nearby?longitude=${longitude}&latitude=${latitude}&maxDistance=${maxDistance}`;
+    return this.http.get<any>(url);
+  }
 
   getPoliceServices(): Observable<any> {
     return this.http.get<any>(`${environment.backendUrl}/police-services`);
