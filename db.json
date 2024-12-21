@@ -1031,7 +1031,8 @@
 "DoctorSchema":[
   {
     "doctorName": "Dr. Sarah Smith",
-    "https://media.istockphoto.com/id/1189304032/photo/doctor-holding-digital-tablet-at-meeting-room.jpg?s=612x612&w=is&k=20&c=gsdmPZ5d0Qnl73G1fMuNPEWS-omxHiCGXO78poIxeKM=",
+    "imageurl": 
+  "https://media.istockphoto.com/id/1189304032/photo/doctor-holding-digital-tablet-at-meeting-room.jpg?s=612x612&w=is&k=20&c=gsdmPZ5d0Qnl73G1fMuNPEWS-omxHiCGXO78poIxeKM=",
     "age": 45,
     "fees": 500,
     "category": "Physical Treatment",
