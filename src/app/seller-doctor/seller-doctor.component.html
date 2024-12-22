@@ -1,1 +1,100 @@
-<p>seller-doctor works!</p>
+<div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <h2 class="text-center mb-4">ADD-DOCTOR</h2>
+        <p style="color: green;">{{addDoctorMsg}}</p>
+        <form #doctorForm="ngForm" (ngSubmit)="addDoctor(doctorForm.value, doctorForm)">
+
+            <div class="mb-3">
+                <label for="doctorName" class="form-label">Doctor Name</label>
+                <input ngModel
+                  type="text"
+                  id="doctorName"
+                  name="doctorName"
+                  class="form-control"
+                  placeholder="Enter doctor name"
+                  required
+                />
+            </div>
+
+            <div class="mb-3">
+                <label for="email" class="form-label">Doctor Email</label>
+                <input ngModel
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="form-control"
+                  placeholder="Enter email"
+                />
+            </div>
+
+            <div class="mb-3">
+                <label for="imageurl" class="form-label">Doctor Image URL</label>
+                <input ngModel
+                  type="text"
+                  id="imageurl"
+                  name="imageurl"
+                  class="form-control"
+                  placeholder="Enter image URL"
+                  required
+                />
+            </div>
+
+            <div class="mb-3">
+                <label for="age" class="form-label">Doctor Age</label>
+                <input ngModel
+                  type="number"
+                  id="age"
+                  name="age"
+                  class="form-control"
+                  placeholder="Enter age"
+                  required
+                />
+            </div>
+
+            <div class="mb-3">
+                <label for="fees" class="form-label">Consultation Fees</label>
+                <input ngModel
+                  type="number"
+                  id="fees"
+                  name="fees"
+                  class="form-control"
+                  placeholder="Enter consultation fees"
+                  required
+                />
+            </div>
+
+            <div class="mb-4">
+                <label for="category" class="form-label">Category</label>
+                <select ngModel
+                  id="category"
+                  name="category"
+                  class="form-control"
+                  required>
+                  <option value="Physical Treatment">Physical Treatment</option>
+                  <option value="Mental Health">Mental Health</option>
+                  <option value="Suggestions">Suggestions</option>
+                  <option value="Precautions">Precautions</option>
+                  <option value="Pregnancy">Pregnancy</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label for="availability" class="form-label">Availability</label>
+                <select ngModel
+                  id="availability"
+                  name="availability"
+                  class="form-control"
+                  required>
+                  <option value="true">Available</option>
+                  <option value="false">Unavailable</option>
+                </select>
+            </div>
+
+            <div>
+                <button type="submit" class="btn bg-dark regist w-90">ADD</button>
+            </div>
+        </form>
+      </div>
+    </div>
+</div>

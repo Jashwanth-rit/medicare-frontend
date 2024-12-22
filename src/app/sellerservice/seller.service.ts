@@ -82,6 +82,52 @@ export class SellerService {
       );
   }
 
+  addDoctor(data: any): Observable<any> {
+    return this.http.post(`${environment.backendUrl}/doctors`, data, { observe: 'response' })
+      .pipe(
+        catchError((error) => {
+          console.error('Failed to add product', error);
+          alert('An error occurred while adding the product.');
+          return [];
+        })
+      );
+  }
+
+  addAmbulance(data: any): Observable<any> {
+    return this.http.post(`${environment.backendUrl}/ambulances`, data, { observe: 'response' })
+      .pipe(
+        catchError((error) => {
+          console.error('Failed to add product', error);
+          alert('An error occurred while adding the product.');
+          return [];
+        })
+      );
+  }
+
+  addHealthcareTaker(data: any): Observable<any> {
+    return this.http.post(`${environment.backendUrl}/healthcareTakers`, data, { observe: 'response' })
+      .pipe(
+        catchError((error) => {
+          console.error('Failed to add healthcare taker', error);
+          alert('An error occurred while adding the healthcare taker.');
+          return [];
+        })
+      );
+  }
+
+
+  addPatient(data: any): Observable<any> {
+    return this.http.post(`${environment.backendUrl}/patients`, data, { observe: 'response' }).pipe(
+      catchError((error) => {
+        console.error('Failed to add patient', error);
+        alert('An error occurred while adding the patient.');
+        return [];
+      })
+    );
+  }
+  
+  
+
   sellerLogin(data: login): void {
     this.http.get(`${environment.backendUrl}/seller?email=${data.email}&password=${data.password}`, { observe: 'response' })
       .pipe(

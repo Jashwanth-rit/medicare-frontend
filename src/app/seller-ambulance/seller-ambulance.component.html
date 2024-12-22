@@ -1,1 +1,53 @@
-<p>seller-ambulance works!</p>
+<!-- HTML Form for Adding Ambulance -->
+<div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <h2 class="text-center mb-4">ADD AMBULANCE</h2>
+        <p style="color: green;">{{addAmbulanceMsg}}</p>
+        <form #ambulanceForm="ngForm" (ngSubmit)="addAmbulance(ambulanceForm.value, ambulanceForm)">
+  
+          <!-- Vehicle Number Field -->
+          <div class="mb-3">
+            <label for="vehicleNumber" class="form-label">Vehicle Number</label>
+            <input ngModel type="text" id="vehicleNumber" name="vehicleNumber" class="form-control" placeholder="Enter vehicle number" required />
+          </div>
+  
+          <!-- Image URL Field -->
+          <div class="mb-3">
+            <label for="imageurl" class="form-label">Image URL</label>
+            <input ngModel type="text" id="imageurl" name="imageurl" class="form-control" placeholder="Enter image URL" required />
+          </div>
+  
+          <!-- Phone Number Field -->
+          <div class="mb-3">
+            <label for="phoneNumber" class="form-label">Phone Number</label>
+            <input ngModel type="text" id="phoneNumber" name="phoneNumber" class="form-control" placeholder="Enter phone number" required />
+          </div>
+  
+          <!-- Current Location Field -->
+          <div class="mb-3">
+            <label for="currentPlace" class="form-label">Current Location</label>
+            <input ngModel type="text" id="currentPlace" name="currentPlace" class="form-control" placeholder="Enter current location" required />
+          </div>
+  
+          <!-- Availability Field -->
+          <div class="mb-3">
+            <label for="availability" class="form-label">Availability</label>
+            <input ngModel type="checkbox" id="availability" name="availability" class="form-check-input" />
+          </div>
+  
+          <!-- Nearby Location (Longitude & Latitude) -->
+          <div class="mb-3">
+            <label for="nearbyLocation" class="form-label">Nearby Location</label>
+            <input ngModel type="text" id="nearbyLocation" name="nearbyLocation" class="form-control" placeholder="Enter coordinates (longitude, latitude)" required />
+          </div>
+  
+          <!-- Submit Button -->
+          <div>
+            <button type="submit" class="btn bg-dark w-100">ADD AMBULANCE</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  

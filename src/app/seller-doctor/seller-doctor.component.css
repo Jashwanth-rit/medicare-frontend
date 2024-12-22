@@ -1,0 +1,249 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    /* Light background */
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Soft shadow */
+  }
+  
+  h2 {
+    font-size: 2.2rem;
+  
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  
+  .form-label {
+    font-weight: bold;
+   
+  }
+  
+  .form-control {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 1rem;
+ 
+    transition: all 0.3s ease;
+  }
+  
+  .form-control:focus {
+    border-color: #3498db; /* Blue border on focus */
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.2); /* Light blue shadow */
+  }
+  
+  .mb-3 {
+    margin-bottom: 20px;
+  }
+  
+  .mb-4 {
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    padding: 12px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .btn.bg-dark {
+    background-color: #2c3e50; /* Dark blue/gray background */
+    color: #fff;
+  }
+  
+  .btn.bg-dark:hover {
+    background-color: #1abc9c; /* Lighter greenish color on hover */
+  }
+  
+  .regist {
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .mt-5 {
+    margin-top: 50px;
+  }
+  
+  /* Message Styling */
+  p[style="color: green;"] {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #27ae60; /* Green for success message */
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .container {
+      padding: 20px;
+    }
+  
+    h2 {
+      font-size: 1.8rem;
+    }
+  
+    .btn {
+      font-size: 1rem;
+    }
+  }
+  
+
+
+
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div  class="col-md-6">
+        <h2 class="text-center mb-4">ADD-PRODUCTS</h2>
+        <p style="color: green;">{{addprodmsg}}</p>
+        <form #products = "ngForm" (ngSubmit)="add(products.value, products)">
+
+            <div class="mb-3">
+                <label for="id" class="form-label">Product-ID</label>
+                <input ngModel
+                  type="text"
+                  id="id"
+                  name="id"
+                  class="form-control"
+                  placeholder="Enter Id"
+                  required
+                />
+              </div>
+          <!-- Name Field -->
+           <div class="mb-3">
+            <label for="name" class="form-label">Product-Name</label>
+            <input ngModel
+              type="text"
+              id="name"
+              name="name"
+              class="form-control"
+              placeholder="Enter name"
+              required
+            />
+          </div>
+
+          <!-- Email Field -->
+           <div class="mb-3">
+            <label for="price" class="form-label">Product-Price</label>
+            <input ngModel
+              type="text"
+              id="price"
+              name="price"
+              class="form-control"
+              placeholder="Enter price"
+              required
+            />
+          </div> 
+
+          <!-- Password Field -->
+           <div class="mb-3">
+            <label for="url" class="form-label">Product-Url</label>
+            <input ngModel
+              type="text"
+              id="url"
+              name="url"
+              class="form-control"
+              placeholder="Enter url"
+              required
+            />
+          </div> 
+           <!-- Password Field -->
+           <div class="mb-3">
+            <label for="discription" class="form-label">Product-Discription</label>
+            <textarea ngModel
+              type="text"
+              id="discription"
+              name="discription"
+              class="form-control"
+              placeholder="Enter discription"
+              required
+            ></textarea>
+          </div> 
+
+          <div class="mb-4">
+            <label for="category" class="form-label">Product-category</label>
+            <input ngModel
+              type="text"
+              id="category"
+              name="category"
+              class="form-control"
+              placeholder="Enter category"
+              required
+            />
+          </div> 
+
+          <!-- Submit Button -->
+           <div >
+           <button type="submit" class="btn bg-dark regist w-90" >ADD</button>
+          
+          </div>
+        </form>
+      </div>
+
+
+
+    </div>
+  </div> 
+
+  <!-- Bootstrap JS (optional) -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+
+  <!--  -->  i need to get input about patients like they have taken abow for product  for the schema const PatientSchema = new mongoose.Schema({
+    name: { type: String, required: true }, // Name of the patient
+    disease: { type: String, required: true }, // Disease the patient is suffering from
+    moneyRequired: { type: Number, required: true }, // Money required for treatment
+    url: { type: String, required: true },
+    deadline: { type: Date, required: true }, // Deadline for the treatment
+    place: { type: String, required: true }, // Place of the patient
+    hospitals: { type: [String], required: true } // List of hospitals the patient is admitted in
+  });
+  
+  const Patient = mongoose.model("Patient", PatientSchema);
+  
+  
+
+const DoctorSession = mongoose.model("DoctorSession", DoctorSessionSchema);  then write service side code to add    addProduct(data: any): Observable<any> {
+    return this.http.post(${environment.backendUrl}/products, data, { observe: 'response' })
+      .pipe(
+        catchError((error) => {
+          console.error('Failed to add product', error);
+          alert('An error occurred while adding the product.');
+          return [];
+        })
+      );
+  }    and server side code to post to database app.post("/products", async (req, res) => { 
+  try {
+    const product = new Product(req.body);
+    await product.save();
+    res.status(201).send(product);
+  } catch (error) {
+    console.error("Error adding product", error);
+    res.status(400).send({ error: "Error adding product" });
+  }
+}); and function like   addprodmsg: string | undefined;
+
+  constructor(private seller: SellerService, private router: Router) {}
+
+  add(data: any, form: NgForm) {  // Accept the form as an argument
+    console.warn("Data received:", data);
+    this.seller.addProduct(data).subscribe((result: any) => {
+      if (result) {
+        this.addprodmsg = "Product added successfully";
+        console.warn(result);
+        form.reset();  // Reset the form fields after successful addition
+      }
+      setTimeout(() => (this.addprodmsg = undefined), 3000);
+    });
+  }

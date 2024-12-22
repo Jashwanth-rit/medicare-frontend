@@ -1,1 +1,104 @@
-<p>seller-patient works!</p>
+<div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <h2 class="text-center mb-4">ADD-PATIENT</h2>
+        <p style="color: green;">{{addPatientMsg}}</p>
+        <form #patientForm="ngForm" (ngSubmit)="addPatient(patientForm.value, patientForm)">
+          <div class="mb-3">
+            <label for="name" class="form-label">Patient Name</label>
+            <input
+              ngModel
+              type="text"
+              id="name"
+              name="name"
+              class="form-control"
+              placeholder="Enter patient name"
+              required
+            />
+          </div>
+  
+          <div class="mb-3">
+            <label for="disease" class="form-label">Disease</label>
+            <input
+              ngModel
+              type="text"
+              id="disease"
+              name="disease"
+              class="form-control"
+              placeholder="Enter disease"
+              required
+            />
+          </div>
+  
+          <div class="mb-3">
+            <label for="moneyRequired" class="form-label">Money Required</label>
+            <input
+              ngModel
+              type="number"
+              id="moneyRequired"
+              name="moneyRequired"
+              class="form-control"
+              placeholder="Enter required amount"
+              required
+            />
+          </div>
+  
+          <div class="mb-3">
+            <label for="url" class="form-label">Image URL</label>
+            <input
+              ngModel
+              type="text"
+              id="url"
+              name="url"
+              class="form-control"
+              placeholder="Enter image URL"
+              required
+            />
+          </div>
+  
+          <div class="mb-3">
+            <label for="deadline" class="form-label">Deadline</label>
+            <input
+              ngModel
+              type="date"
+              id="deadline"
+              name="deadline"
+              class="form-control"
+              required
+            />
+          </div>
+  
+          <div class="mb-3">
+            <label for="place" class="form-label">Place</label>
+            <input
+              ngModel
+              type="text"
+              id="place"
+              name="place"
+              class="form-control"
+              placeholder="Enter place"
+              required
+            />
+          </div>
+  
+          <div class="mb-3">
+            <label for="hospitals" class="form-label">Hospitals</label>
+            <input
+              ngModel
+              type="text"
+              id="hospitals"
+              name="hospitals"
+              class="form-control"
+              placeholder="Enter hospitals (comma-separated)"
+              required
+            />
+          </div>
+  
+          <div>
+            <button type="submit" class="btn bg-dark regist w-90">ADD</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  
