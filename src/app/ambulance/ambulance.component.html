@@ -13,6 +13,10 @@
         {{ ambulance.availability ? 'Available' : 'Unavailable' }}
       </span>
     </p>
+    <p><strong>Nearby Location (Coordinates):</strong> 
+      Latitude: {{ ambulance.nearbyLocation.coordinates[1] }}, 
+      Longitude: {{ ambulance.nearbyLocation.coordinates[0] }}
+    </p>
     <div class="ambulance-actions">
       <button 
         *ngIf="ambulance.availability" 
@@ -31,6 +35,6 @@
   </div>
 </div>
 
-<h2 *ngIf="!ambulances || ambulances.length === 0" class="empty">
+<h2 *ngIf="!medicalShops || medicalShops.length === 0" class="empty">
   No Ambulance nearby
 </h2>

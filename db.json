@@ -1355,58 +1355,200 @@
 ]
 ,
 
-"healthnearby":[
-  {
-    "id": "HT001",
-    "name": "Dr. Priya Sharma",
-    "specialty": "General Physician",
-    "phone": "8901234567",
-    "email": "priya.sharma@example.com",
-    "location": "Lakeview Apartments, City Center",
-    "availability": "10 AM - 4 PM",
-    "image": "https://example.com/healthcare/dr-priya.jpg",
-    "nearbyLocation": {
-      "type": "Point",
-      "coordinates": [77.6109, 12.9721] // Longitude, Latitude
+
+  "healthnearby": [
+    {
+      "id": "HT001",
+      "name": "Dr. Priya Sharma",
+      "specialty": "General Physician",
+      "phone": "8901234567",
+      "email": "priya.sharma@example.com",
+      "location": "Lakeview Apartments, City Center",
+      "availability": "10 AM - 4 PM",
+      "image": "https://media.istockphoto.com/id/1292015214/photo/portrait-female-doctor-stock-photo.jpg?s=612x612&w=0&k=20&c=nr4XaWnRPQnWqwhzahajZhskIDG1yK9DmIteV5gpUOI=",
+      "nearbyLocation": {
+        "type": "Point",
+        "coordinates": [77.6109, 12.9721]
+      }
+    },
+    {
+      "id": "HT002",
+      "name": "Dr. Ramesh Kumar",
+      "specialty": "Orthopedic Surgeon",
+      "phone": "8765432109",
+      "email": "ramesh.kumar@example.com",
+      "location": "Grand Residency, South Lane",
+      "availability": "2 PM - 8 PM",
+      "image": "https://media.istockphoto.com/id/1298800629/photo/portrait-of-confident-male-doctor-looking-at-camera.jpg?s=612x612&w=0&k=20&c=CB3h3a-0yUBgaZHhF2Kd5ibfDv25Qcjsca-ia5gIWUM=",
+      "nearbyLocation": {
+        "type": "Point",
+        "coordinates": [77.6412, 12.9143]
+      }
+    },
+    {
+      "id": "HT003",
+      "name": "Dr. Anita Verma",
+      "specialty": "Pediatrician",
+      "phone": "8123456789",
+      "email": "anita.verma@example.com",
+      "location": "Sunrise Clinic, North Street",
+      "availability": "9 AM - 1 PM",
+      "image": "https://media.istockphoto.com/id/1301595548/photo/female-doctor-stock-photo.jpg?s=612x612&w=0&k=20&c=s9kTlQCWJcYmCyMwYwJfTq7jiC1NfHaXzZyGhi4fRHM=",
+      "nearbyLocation": {
+        "type": "Point",
+        "coordinates": [77.6200, 12.9301]
+      }
+    },
+    {
+      "id": "HT004",
+      "name": "Dr. Mohan Das",
+      "specialty": "Cardiologist",
+      "phone": "9988776655",
+      "email": "mohan.das@example.com",
+      "location": "Heart Care Center, Green Valley",
+      "availability": "11 AM - 5 PM",
+      "image": "https://media.istockphoto.com/id/177373093/photo/indian-male-doctor.jpg?s=612x612&w=0&k=20&c=5FkfKdCYERkAg65cQtdqeO_D0JMv6vrEdPw3mX1Lkfg=",
+      "nearbyLocation": {
+        "type": "Point",
+        "coordinates": [77.5998, 12.9156]
+      }
+    },
+    {
+      "id": "HT005",
+      "name": "Dr. Kavita Menon",
+      "specialty": "Dermatologist",
+      "phone": "9012345678",
+      "email": "kavita.menon@example.com",
+      "location": "Skin Care Clinic, East End",
+      "availability": "3 PM - 8 PM",
+      "image": "https://media.istockphoto.com/id/1270790502/photo/medical-concept-of-indian-beautiful-female-doctor-with-note-book.jpg?s=612x612&w=0&k=20&c=5r5tCLSnYHKiPNaHn4hu-e4u_-3eat_8PRdmEQgkmVM=",
+      "nearbyLocation": {
+        "type": "Point",
+        "coordinates": [77.6301, 12.9553]
+      }
+    },
+    {
+      "id": "HT006",
+      "name": "Dr. Suraj Patel",
+      "specialty": "ENT Specialist",
+      "phone": "7890123456",
+      "email": "suraj.patel@example.com",
+      "location": "Harmony Clinic, West Cross",
+      "availability": "10 AM - 2 PM",
+      "image": "https://media.istockphoto.com/id/1080237358/photo/indian-male-doctor-on-blue-background-stock-image.jpg?s=612x612&w=0&k=20&c=584Xv0Nsqtxl1wGVGjDH7aunkBDWguG3nyR3sxEh4tU=",
+      "nearbyLocation": {
+        "type": "Point",
+        "coordinates": [77.5902, 12.9754]
+      }
+    },
+    {
+      "id": "HT007",
+      "name": "Dr. Radha Iyer",
+      "specialty": "Gynecologist",
+      "phone": "9812345678",
+      "email": "radha.iyer@example.com",
+      "location": "Care Women Clinic, Maple Avenue",
+      "availability": "11 AM - 7 PM",
+      "image": "https://media.istockphoto.com/id/1200980392/photo/medical-concept-of-asian-beautiful-female-doctor-in-white-coat-with-stethoscope-waist-up.jpg?s=612x612&w=0&k=20&c=nD_1Tn11kWcMZwZfnyA-lYAvNKcBeoEK_KLObBnN6Jg=",
+      "nearbyLocation": {
+        "type": "Point",
+        "coordinates": [77.6012, 12.9405]
+      }
+    },
+    {
+      "id": "HT008",
+      "name": "Dr. Karan Singh",
+      "specialty": "Dentist",
+      "phone": "8123456700",
+      "email": "karan.singh@example.com",
+      "location": "Bright Smile Dental Clinic, High Street",
+      "availability": "9 AM - 6 PM",
+      "image": "https://media.istockphoto.com/id/1327024466/photo/portrait-of-male-doctor-in-white-coat-and-stethoscope-standing-in-clinic-hall.jpg?s=612x612&w=0&k=20&c=49wqOwwuonk9f8NACL7M_5RosqQPFwJ8-dpmeo9AvQw=",
+      "nearbyLocation": {
+        "type": "Point",
+        "coordinates": [77.6103, 12.9307]
+      }
+    },
+    {
+      "id": "HT009",
+      "name": "Dr. Sameer Gupta",
+      "specialty": "Neurologist",
+      "phone": "9098765432",
+      "email": "sameer.gupta@example.com",
+      "location": "Mind and Body Clinic, South View",
+      "availability": "12 PM - 6 PM",
+      "image": "https://media.istockphoto.com/id/1203928556/photo/medical-concept-of-asian-beautiful-female-doctor-in-white-coat-with-stethoscope-waist-up.jpg?s=612x612&w=0&k=20&c=CM7z7JKYcjSdHSgddudODe1E9j8sjUhSU0AcBIxgR-Y=",
+      "nearbyLocation": {
+        "type": "Point",
+        "coordinates": [77.6205, 12.9701]
+      }
+    },
+    {
+      "id": "HT010",
+      "name": "Dr. Nisha Chawla",
+      "specialty": "Psychiatrist",
+      "phone": "8899001122",
+      "email": "nisha.chawla@example.com",
+      "location": "Mental Wellness Center, Oak Lane",
+      "availability": "10 AM - 4 PM",
+      "image": "https://media.istockphoto.com/id/1742056601/photo/photo-of-doctor-lady-smile-looking-at-camera-wear-stethoscope-white-uniform-isolate-white.jpg?s=612x612&w=0&k=20&c=XxMIMOssaMAT2zViPWohJGX51ymcSyY9RxtbiYYLEIE=",
+      "nearbyLocation": {
+        "type": "Point",
+        "coordinates": [77.6402, 12.9148]
+      }
+    },
+    {
+      "id": "HT011",
+      "name": "Dr. Arjun Roy",
+      "specialty": "Endocrinologist",
+      "phone": "8989898989",
+      "email": "arjun.roy@example.com",
+      "location": "Endo Care Clinic, Central Plaza",
+      "availability": "2 PM - 6 PM",
+      "image": "https://media.istockphoto.com/id/1342708859/photo/portrait-of-a-male-doctor.jpg?s=612x612&w=0&k=20&c=7ojvfSnLNx73sR1xXTReBrIXJOZPpSNFZ3E9CodsfQU=",
+      "nearbyLocation": {
+        "type": "Point",
+        "coordinates": [77.56490694485468, 13.032401309206884]
+      }
+    },
+    {
+      "id": "HT012",
+      "name": "Dr. Seema Khanna",
+      "specialty": "Oncologist",
+      "phone": "9501122334",
+      "email": "jk.karunadu01@gmail.com",
+      "location": "Cancer Care Center, Main Road",
+      "availability": "10 AM - 3 PM",
+      "image": "https://media.istockphoto.com/id/1202532472/photo/doctor-portrait-smiling-woman-with-hands-crossed.jpg?s=612x612&w=0&k=20&c=7e0fjy0qAcs0G9H3rpsw3rjwLzZgOTBwRHDBv1J_6rs=",
+      "nearbyLocation": {
+        "type": "Point",
+        "coordinates": [77.5649243777627, 13.032393157464405]
+      }
     }
-  },
-  {
-    "id": "HT002",
-    "name": "Dr. Ramesh Kumar",
-    "specialty": "Orthopedic Surgeon",
-    "phone": "8765432109",
-    "email": "ramesh.kumar@example.com",
-    "location": "Grand Residency, South Lane",
-    "availability": "2 PM - 8 PM",
-    "image": "https://example.com/healthcare/dr-ramesh.jpg",
-    "nearbyLocation": {
-      "type": "Point",
-      "coordinates": [77.6412, 12.9143] // Longitude, Latitude
-    }
-  }
-]
-,
+  ]
+
+
 "Ambulance":[
   {
     "vehicleNumber": "KA01AB1234",
-    "imageurl": "https://example.com/ambulance1.jpg",
+    "imageurl": "https://imgs.search.brave.com/9EhIptwxdLXSntXITVlt1vSob5sOLsery1pZnRWnbYw/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAwLzE2LzYwLzAx/LzM2MF9GXzE2NjAw/MTM1X3pPZlFVWTQz/TnpubEo4V2YxcE1q/WUE5MndPUzlNNk9D/LmpwZw",
     "phoneNumber": "911",
     "currentPlace": "City Hospital, MG Road",
     "availability": true,
     "nearbyLocation": {
       "type": "Point",
-      "coordinates": [77.5993, 12.9784] // Longitude, Latitude
+      "coordinates": [77.5649243777627, 13.032393157464405] 
     }
   },
   {
     "vehicleNumber": "KA05CD5678",
-    "imageurl": "https://example.com/ambulance2.jpg",
+    "imageurl": "https://imgs.search.brave.com/9EhIptwxdLXSntXITVlt1vSob5sOLsery1pZnRWnbYw/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAwLzE2LzYwLzAx/LzM2MF9GXzE2NjAw/MTM1X3pPZlFVWTQz/TnpubEo4V2YxcE1q/WUE5MndPUzlNNk9D/LmpwZw",
     "phoneNumber": "108",
     "currentPlace": "East Wing Medical Center",
     "availability": false,
     "nearbyLocation": {
       "type": "Point",
-      "coordinates": [77.6215, 12.9345] // Longitude, Latitude
+      "coordinates": [77.6215, 12.9345] 
     }
   }
 ]

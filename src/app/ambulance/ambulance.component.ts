@@ -82,6 +82,7 @@ export class AmbulanceComponent {
         this.error = 'Failed to fetch nearby medical shops.';
       },
     });
+    console.log('Medical Shops:', this.medicalShops);
   }
   bookAmbulance(ambulance: any) {
     alert(`Booking ambulance ${ambulance.vehicleNumber}`);

@@ -45,31 +45,31 @@ healthcareTakers: any[] = [];
   ngOnInit(): void {
 
      // Get user's current location
-         if (isPlatformBrowser(this.platformId)) {
-          // Get user's current location
-          if (navigator.geolocation) {
-            navigator.geolocation.getCurrentPosition(
-              (position) => {
-                const { latitude, longitude } = position.coords;
-                console.log('Latitude:', latitude, 'Longitude:', longitude);
-                this.fetchNearbyMedicalShops(latitude, longitude);
-              },
-              (error) => {
-                console.error('Error getting location:', error);
-                this.error = 'Could not fetch your location. Please enable location services.';
-              }
-            );
-          } else {
-            this.error = 'Geolocation is not supported by your browser.';
-          }
-        } else {
-          this.error = 'Geolocation is not available in the server environment.';
-        }
-    // this.getcaroul()
-    // this.getprod();
-    // this.seller.cartLength$.subscribe((length) => {
-    //   this.cartlength = length;
-    // });
+        //  if (isPlatformBrowser(this.platformId)) {
+        //   // Get user's current location
+        //   if (navigator.geolocation) {
+        //     navigator.geolocation.getCurrentPosition(
+        //       (position) => {
+        //         const { latitude, longitude } = position.coords;
+        //         console.log('Latitude:', latitude, 'Longitude:', longitude);
+        //         this.fetchNearbyMedicalShops(latitude, longitude);
+        //       },
+        //       (error) => {
+        //         console.error('Error getting location:', error);
+        //         this.error = 'Could not fetch your location. Please enable location services.';
+        //       }
+        //     );
+        //   } else {
+        //     this.error = 'Geolocation is not supported by your browser.';
+        //   }
+        // } else {
+        //   this.error = 'Geolocation is not available in the server environment.';
+        // }
+    this.getcaroul()
+    this.getprod();
+    this.seller.cartLength$.subscribe((length) => {
+      this.cartlength = length;
+    });
    
   }
   details(id:any){
@@ -77,7 +77,7 @@ healthcareTakers: any[] = [];
 
     this.router.navigate([`product-details/${id}`])
   }
-  addToCart(product:any){
+  addtocart(product:any){
     console.warn("add to cart called");
     this.seller.addtocart(product).subscribe((res)=>{
       console.warn("product added");
@@ -107,6 +107,7 @@ healthcareTakers: any[] = [];
         this.error = 'Failed to fetch nearby medical shops.';
       },
     });
+    console.warn("medicalshops",this.medicalShops);
   }
   
   viewShopProducts(shop: any): void {

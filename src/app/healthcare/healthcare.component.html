@@ -1,4 +1,3 @@
-<!-- HTML -->
 <div *ngFor="let taker of medicalShops" class="healthcare-card">
   <img 
     [src]="taker.image" 
@@ -34,6 +33,6 @@
   </div>
 </div>
 
-<h2 *ngIf="!healthcareTakers || healthcareTakers.length === 0" class="empty">
+<h2 *ngIf="!medicalShops || medicalShops.length === 0" class="empty">
   No Healthcare nearby
 </h2>

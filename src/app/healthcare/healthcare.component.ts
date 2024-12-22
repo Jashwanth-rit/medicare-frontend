@@ -75,6 +75,7 @@ export class HealthcareComponent {
         this.error = 'Failed to fetch nearby medical shops.';
       },
     });
+    console.log('Medical Shops:', this.medicalShops);
   }
 
   bookHealthcareTaker(taker: any) {
