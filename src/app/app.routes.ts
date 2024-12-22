@@ -27,6 +27,10 @@ import { PregnencyComponent } from './pregnency/pregnency.component';
 import { ReminderComponent } from './reminder/reminder.component';
 import { DonateComponent } from './donate/donate.component';
 import { DoctorDetailsComponent } from './doctor-details/doctor-details.component';
+import { SellerAmbulanceComponent } from './seller-ambulance/seller-ambulance.component';
+import { SellerDoctorComponent } from './seller-doctor/seller-doctor.component';
+import { SellerPatientComponent } from './seller-patient/seller-patient.component';
+import { SellerHealthcareComponent } from './seller-healthcare/seller-healthcare.component';
 
 export const routes: Routes = [
     {
@@ -44,6 +48,26 @@ export const routes: Routes = [
     {
         path:'suggestions',
         component:SuggestionComponent
+    },
+    {
+        path:'ambulance',
+        component:AmbulanceComponent
+    },
+    {
+        path:'add-ambulance',
+        component:SellerAmbulanceComponent
+    },
+    {
+        path:'add-doctor',
+        component:SellerDoctorComponent
+    },
+    {
+        path:'add-patient',
+        component:SellerPatientComponent
+    },
+    {
+        path:'add-healthcare',
+        component:SellerHealthcareComponent
     },
     {
         path:'ambulance',
