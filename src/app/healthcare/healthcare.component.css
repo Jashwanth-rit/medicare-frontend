@@ -1,80 +1,98 @@
-.healthcare-card {
-    display: flex;
-    align-items: center;
-    border: 1px solid #ddd;
-    padding: 15px;
-    border-radius: 10px;
-   
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-    max-width: 800px;
-    margin: 0 auto 20px;
-  }
-  
-  .healthcare-image {
-    width: 120px;
-    height: 120px;
-    object-fit: cover;
-    border-radius: 8px;
-    margin-right: 20px;
-    border: 1px solid #ccc;
-  }
-  
-  .healthcare-info {
-    flex-grow: 1;
-   
-  }
-  
-  .healthcare-info p {
-    margin: 5px 0;
-    font-size: 1rem;
-  }
-  
-  .healthcare-info strong {
-    
-  }
-  
-  .empty {
-    text-align: center;
-    color: grey;
-    font-size: 1.5rem;
-    font-style: italic;
-    margin-top: 50px;
-  }
-  
-  .empty:hover {
-    color: red;
-    font-weight: bold;
-  }
+.medical-shops {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
 
-  .healthcare-actions {
-    margin-top: 10px;
-  }
-  
-  .book-btn, .call-btn {
-    padding: 8px 12px;
-    margin-right: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .book-btn {
-    background-color: #28a745;
-    color: white;
-  }
-  
-  .call-btn {
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
-  }
-  
-  .book-btn:hover {
-    background-color: #218838;
-  }
-  
-  .call-btn:hover {
-    background-color: #0056b3;
-  }
-  
+.shop {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 10px 0;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s;
+}
+
+.shop:hover {
+  background-color: #e0e0e0;
+}
+
+.product-display {
+  margin-top: 30px;
+}
+
+.carousel-container {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.file-input-container {
+  margin-top: 20px;
+}
+
+.file-input-label {
+  font-size: 16px;
+}
+
+.file-input {
+  margin-top: 10px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product {
+  width: calc(33% - 20px);
+  border: 1px solid #ddd;
+  padding: 15px;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s;
+}
+
+.product:hover {
+  background-color: #e0e0e0;
+}
+
+.imgdiv img {
+  max-width: 100%;
+  height: auto;
+}
+
+.infodiv {
+  margin-top: 10px;
+}
+
+.product-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.product-price {
+  font-size: 16px;
+  color: #555;
+}
+
+.product-description {
+  font-size: 14px;
+  color: #777;
+}
+
+.product-buttons {
+  margin-top: 10px;
+}
+
+.product-buttons button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.product-buttons button:hover {
+  background-color: #0056b3;
+}

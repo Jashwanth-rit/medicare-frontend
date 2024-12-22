@@ -5,6 +5,7 @@ import { Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { CartComponent } from '../cart/cart.component';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-mental',
@@ -17,7 +18,7 @@ export class MentalComponent {
   physicalTreatmentDoctors: any[] = [];
   doctors: any[] = [];
 
-  constructor(private seller: SellerService, private router: Router) {}
+  constructor(private seller: SellerService, private router: Router,private http: HttpClient) {}
 
   ngOnInit(): void {
     this.getDoctors();
@@ -38,15 +39,43 @@ export class MentalComponent {
     );
   }
 
-  bookAppointment(doctorId: number): void {
-    console.log(`Booking appointment for doctor with ID: ${doctorId}`);
-    // Navigate to the appointment booking page with the doctor's ID
+  // bookAppointment(doctorId: number): void {
+  //   console.log(`Booking appointment for doctor with ID: ${doctorId}`);
+  //   // Navigate to the appointment booking page with the doctor's ID
+  // }
+
+  bookAppointment(taker: any) {
+    const bookingData = {
+      name: taker.name,
+      email: taker.email,
+      phone: taker.phone,
+      specialty: taker.specialty,
+      location: taker.location
+    };
+
+    this.http.post('http://localhost:3000/book', bookingData)
+      .subscribe(
+        (response: any) => {
+          alert('Booking request sent successfully!');
+        },
+        (error: any) => {
+          console.error('Error sending booking request:', error);
+          alert('Failed to send booking request.');
+        }
+      );
   }
 
-  viewDetails(doctorId: number): void {
-    console.log(`Viewing details for doctor with ID: ${doctorId}`);
+  viewDetails(id: any): void {
+    console.log(`Viewing details for doctor with ID: ${id}`);
     // Navigate to the doctor details page with the doctor's ID
+   
+      this.router.navigate([`doctor-details/${id}`])
   }
+
+  // viewDetails(doctorId: number): void {
+  //   console.log(`Viewing details for doctor with ID: ${doctorId}`);
+  //   // Navigate to the doctor details page with the doctor's ID
+  // }
   
 
 }

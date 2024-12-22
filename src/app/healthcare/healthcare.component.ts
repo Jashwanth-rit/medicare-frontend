@@ -68,7 +68,7 @@ export class HealthcareComponent {
 
   fetchNearbyMedicalShops(latitude: number, longitude: number): void {
     const maxDistance = 3000; // Example: 3 km
-    this.seller.getNearbyMedicalShops(latitude, longitude, maxDistance).subscribe({
+    this.seller.getNearbyhealthcare(latitude, longitude, maxDistance).subscribe({
       next: (data) => (this.medicalShops = data),
       error: (err) => {
         console.error('Error fetching nearby medical shops:', err);

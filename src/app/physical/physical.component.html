@@ -9,7 +9,7 @@
         <span class="doctor-fee">Consultation Fee: ₹{{ doctor.fees }}</span>
         <p class="doctor-description">Age: {{ doctor.age }}</p>
         <div class="doctor-buttons">
-          <button (click)="bookAppointment(doctor.id)">Book Appointment</button>
+          <button (click)="bookAppointment(doctor)">Book session</button>
           <button (click)="viewDetails(doctor.id)">View Details</button>
         </div>
       </div>

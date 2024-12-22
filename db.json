@@ -1203,55 +1203,152 @@
 ,
 "medinearby":[
   {
-    "shopName": "HealthPlus Pharmacy",
-    "address": "123 Main Street, City Center",
-    "phoneNumber": "9876543210",
+    "shopName": "MedicZone Pharmacy",
+    "address": "321 Maple Avenue, Eastside",
+    "phoneNumber": "9776655443",
     "availability": true,
-    "openingHours": "8 AM - 10 PM",
-    "emergencyServices": true,
+    "openingHours": "8 AM - 8 PM",
+    "emergencyServices": false,
     "nearbyLocation": {
       "type": "Point",
-      "coordinates": [77.5946, 12.9716] 
-
+      "coordinates": [77.5641, 12.9632] 
     },
     "products": [
       {
-        "id": "P101",
-        "name": "Paracetamol",
-        "price": "50",
-        "url": "https://example.com/products/paracetamol",
-        "description": "Pain relief and fever reducer",
+        "id": "P111",
+        "name": "Cold & Flu Tablets",
+        "price": "90",
+        "url": "https://imgs.search.brave.com/UILpI6kC7u3asZQ7bC46EFqvvPnbmR5GHw7eW54wutA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuY3RmYXNzZXRz/Lm5ldC96aTI1ZzJt/MTZrdHMvS2RZRkZj/V2p4eDYxZFoxUTR6/T3RxLzAwNDFmOWQ1/ZmE3ODk4OWE3MjNk/Y2VhZjcyYmI4YmQ3/L2NvZHJhbC1jb2xk/LWZsdS0yMC10YWJs/ZXRzLTcwLWVuLWF1",
+        "description": "Relieves symptoms of cold and flu",
         "category": "Medicine"
       },
       {
-        "id": "P102",
-        "name": "Vitamin C",
-        "price": "200",
-        "url": "https://example.com/products/vitamin-c",
-        "description": "Immunity booster supplement",
+        "id": "P112",
+        "name": "Omega-3 Fish Oil",
+        "price": "220",
+        "url": "https://imgs.search.brave.com/-nSWplL36xt0CsUABRxdgDDOvqbkyka3dt8Irnc3bzU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/Y29uc3VtZXJsYWIu/Y29tL2ltYWdlcy9w/cm9kdWN0cy84Mzgw/X2xhcmdlX1NwZWN0/cnVtX0Zpc2hfT2ls/X09tZWdhLTMtRmlz/aF9PaWwtMjAyMy5w/bmc",
+        "description": "Supports heart health and joint flexibility",
         "category": "Supplements"
       }
     ]
   },
   {
-    "shopName": "CityMed Drugs",
-    "address": "45 Park Avenue, Greenfield",
-    "phoneNumber": "9123456789",
+    "shopName": "BrightCare Pharmacy",
+    "address": "200 Sunset Boulevard, Riverpark",
+    "phoneNumber": "9338776655",
     "availability": true,
-    "openingHours": "9 AM - 9 PM",
-    "emergencyServices": false,
+    "openingHours": "8 AM - 10 PM",
+    "emergencyServices": true,
     "nearbyLocation": {
       "type": "Point",
-      "coordinates": [77.5805, 12.9352] 
+      "coordinates": [77.5770, 12.9512]
     },
     "products": [
       {
-        "id": "P103",
-        "name": "Ibuprofen",
-        "price": "60",
-        "url": "https://example.com/products/ibuprofen",
-        "description": "Pain relief and anti-inflammatory",
+        "id": "P113",
+        "name": "Antibiotic Ointment",
+        "price": "120",
+        "url": "https://imgs.search.brave.com/OcENPa7J8zQ1whA7omHZY_Cnfe7qwF26ko6PesLgwR4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuY3RmYXNzZXRz/Lm5ldC9rOGl4MXNt/MWI0OGMvNE9kbGJY/Mms5VUtHNkZ5TjA2/M3FLeC9iNWZkMWZl/MGRkODgzMTc1YTIy/MmM3MjM2Y2Q1MzAy/Zi8wMV9wbHlfMzAw/ODEwNzk4ODc3X3Vz/X3BseXlzcG9yaW5f/b2ludG1lbnRfMW96/X29id2JfNTAwd3g1/MDBoLWVuLXVz",
+        "description": "Prevents infections in cuts and scrapes",
         "category": "Medicine"
+      },
+      {
+        "id": "P114",
+        "name": "Vitamin D3",
+        "price": "250",
+        "url": "https://imgs.search.brave.com/rqEJeb_6V74Cu9YdNfmpsX0deUJ40cs7S2NUK6szvW8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtbmEuc3NsLWlt/YWdlcy1hbWF6b24u/Y29tL2ltYWdlcy9J/LzYxZHY2YS1hMjBM/LmpwZw",
+        "description": "Supports bone health and immune function",
+        "category": "Supplements"
+      }
+    ]
+  },
+  {
+    "shopName": "CareMed Pharmacy",
+    "address": "45 River Road, Southgate",
+    "phoneNumber": "9112448899",
+    "availability": false,
+    "openingHours": "10 AM - 6 PM",
+    "emergencyServices": false,
+    "nearbyLocation": {
+      "type": "Point",
+      "coordinates": [77.5907, 12.9478]
+    },
+    "products": [
+      {
+        "id": "P115",
+        "name": "Muscle Relaxant Gel",
+        "price": "150",
+        "url": "https://imgs.search.brave.com/a1sH8r0P9ivZfb0wxb4prbYzE0rI40uDNBI73PTZ11c/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NjFsSFhIcjJJNUwu/anBn",
+        "description": "Relieves muscle pain and stiffness",
+        "category": "Medicine"
+      },
+      {
+        "id": "P116",
+        "name": "Biotin Supplement",
+        "price": "180",
+        "url": "https://imgs.search.brave.com/lN7QG8InUX3G8tUcq0jeBcdCi3Y1SXm6lKnU65nA1YE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtbmEuc3NsLWlt/YWdlcy1hbWF6b24u/Y29tL2ltYWdlcy9J/LzYxQ1Bjdnhjb21M/LmpwZw",
+        "description": "Supports hair, skin, and nails health",
+        "category": "Supplements"
+      }
+    ]
+  },
+  {
+    "shopName": "VitalHealth Pharmacy",
+    "address": "72 Crestwood Drive, Parkview",
+    "phoneNumber": "9002345678",
+    "availability": true,
+    "openingHours": "9 AM - 9 PM",
+    "emergencyServices": true,
+    "nearbyLocation": {
+      "type": "Point",
+      "coordinates": [77.6158, 12.9439] 
+    },
+    "products": [
+      {
+        "id": "P117",
+        "name": "Eye Drops",
+        "price": "60",
+        "url": "https://imgs.search.brave.com/_KPlcuFgqzXkxT2c_JVPARZpJAB6fJQfiTdtDajheiM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuY3RmYXNzZXRz/Lm5ldC9rOGl4MXNt/MWI0OGMvNHVjVGoy/SVc3Y3h2WVMzVEZC/enc3ay9mYjA2MTc5/ODMxN2E4N2IwZjVi/ZTYxMzMzOTc5MDIw/Mi81b3pfMWN0XzAw/MDAwLWVuLXVzLVZp/c2luZS1fLVZpc3By/aW5nLV8tVmlzY2xl/YXIud2VicA",
+        "description": "Relieves dry and irritated eyes",
+        "category": "Medicine"
+      },
+      {
+        "id": "P118",
+        "name": "Vitamin B Complex",
+        "price": "210",
+        "url": "https://imgs.search.brave.com/0ugVWvcSiwd5YPuX0uka_-UwlW3h654PzVAy_JSXiY4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtbmEuc3NsLWlt/YWdlcy1hbWF6b24u/Y29tL2ltYWdlcy9J/LzYxMTJOdmV4TzhM/LmpwZw",
+        "description": "Supports energy production and overall health",
+        "category": "Supplements"
+      }
+    ]
+  },
+  {
+    "shopName": "QuickCare Pharmacy",
+    "address": "58 Birch Lane, Hilltop",
+    "phoneNumber": "9123456789",
+    "availability": true,
+    "openingHours": "8 AM - 7 PM",
+    "emergencyServices": true,
+    "nearbyLocation": {
+      "type": "Point",
+      "coordinates": [77.5882, 12.9545] 
+    },
+    "products": [
+      {
+        "id": "P119",
+        "name": "Anti-Allergy Tablets",
+        "price": "85",
+        "url": "https://imgs.search.brave.com/iBfUCUMjqveV5Kuvd3o9rXjivuJuL4Bxj5CFdGrWkRc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NzFWbTFCRkdvRUwu/anBn",
+        "description": "Relieves allergy symptoms like sneezing and itching",
+        "category": "Medicine"
+      },
+      {
+        "id": "P120",
+        "name": "Magnesium Supplement",
+        "price": "170",
+        "url": "https://imgs.search.brave.com/mlQqMumX5b1rivJRGI31nuOKMZzs1fXZc3HTmTjNR4Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtbmEuc3NsLWlt/YWdlcy1hbWF6b24u/Y29tL2ltYWdlcy9J/LzcxSWdhYUVXTVRM/LmpwZw",
+        "description": "Supports muscle and nerve function",
+        "category": "Supplements"
       }
     ]
   }
